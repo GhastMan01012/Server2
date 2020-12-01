@@ -1,0 +1,105 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas:
+            area_1:
+                fillColor: 16711680
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.35
+                x:
+                - 1784.0
+                - 1817.0
+                - 1838.0
+                - 1836.0
+                - 1836.0
+                - 1797.0
+                - 1797.0
+                - 1782.0
+                - 1784.0
+                strokeWeight: 3
+                z:
+                - 275.0
+                - 289.0
+                - 307.0
+                - 319.0
+                - 366.0
+                - 367.0
+                - 344.0
+                - 329.0
+                - 276.0
+                label: area_1
+                ybottom: 64.0
+                strokeColor: 16711680
+                strokeOpacity: 0.8
+        label: Markers
+        markers:
+            marker_1:
+                world: world
+                markup: false
+                x: 2602.0
+                icon: lighthouse
+                y: 69.0
+                z: -323.0
+                label: Edgeland Island
+            marker_2:
+                world: world
+                markup: false
+                x: 1850.0
+                icon: bighouse
+                y: 67.0
+                z: 457.0
+                label: BradleyLand Village
+            marker_3:
+                world: world
+                markup: false
+                x: 1967.0
+                icon: world
+                y: 69.0
+                z: 421.0
+                label: Nation of Burger
+            marker_4:
+                world: world
+                markup: false
+                x: 2040.0
+                icon: portal
+                y: 69.0
+                z: 419.0
+                label: Tom's Portal
+            marker_5:
+                world: world
+                markup: false
+                x: 2017.0
+                icon: pirateflag
+                y: 65.0
+                z: 391.0
+                label: Pirate Party
+            marker_6:
+                world: world
+                markup: false
+                x: 1999.0
+                icon: house
+                y: 71.0
+                z: 438.0
+                label: Tom's House
+            marker_7:
+                world: world
+                markup: false
+                x: 1805.0
+                icon: building
+                y: 88.0
+                z: 344.0
+                label: The Protectorate of Port Cane
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

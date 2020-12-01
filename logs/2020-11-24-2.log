@@ -1,0 +1,461 @@
+[12:13:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:13:15] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:13:16] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:13:18] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[12:13:18] [Server thread/INFO]: Loading properties
+[12:13:18] [Server thread/INFO]: This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[12:13:18] [Server thread/INFO]: Debug logging is disabled
+[12:13:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:13:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:13:18] [Server thread/INFO]: Default game type: SURVIVAL
+[12:13:18] [Server thread/INFO]: Generating keypair
+[12:13:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:13:18] [Server thread/INFO]: Using epoll channel type
+[12:13:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:13:25] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta5-431 does not specify an api-version.
+[12:13:25] [Server thread/WARN]: Legacy plugin tpa v1.0 does not specify an api-version.
+[12:13:25] [Server thread/WARN]: Legacy plugin CCTV v6.6b does not specify an api-version.
+[12:13:25] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta5-431
+[12:13:25] [Server thread/INFO]: [dynmap] version=git-Paper-288 (MC: 1.16.4)
+[12:13:25] [Server thread/INFO]: [dynmap] Mod Support API available
+[12:13:25] [Server thread/INFO]: [tpa] Loading tpa v1.0
+[12:13:25] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.45.2
+[12:13:25] [Server thread/INFO]: [floodgate-bukkit] Loading floodgate-bukkit v1.0-SNAPSHOT
+[12:13:26] [Server thread/INFO]: [floodgate-bukkit] Loading Floodgate linked player database...
+[12:13:26] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.0-SNAPSHOT
+[12:13:26] [Server thread/INFO]: [CCTV] Loading CCTV v6.6b
+[12:13:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:13:26] [Server thread/INFO]: Preparing level "world"
+[12:13:26] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:13:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:13:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:13:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:13:26] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:26] [Server thread/INFO]: View Distance: 10
+[12:13:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:13:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:26] [Server thread/INFO]: Mob Spawn Range: 8
+[12:13:26] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:13:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:13:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:13:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:13:26] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:26] [Server thread/INFO]: View Distance: 10
+[12:13:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:13:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:26] [Server thread/INFO]: Mob Spawn Range: 8
+[12:13:26] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:13:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:13:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:13:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:13:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:13:26] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:26] [Server thread/INFO]: View Distance: 10
+[12:13:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:13:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:26] [Server thread/INFO]: Mob Spawn Range: 8
+[12:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:13:27] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:13:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:13:27] [Server thread/INFO]: Preparing spawn area: 0%
+[12:13:27] [Server thread/INFO]: Preparing spawn area: 1%
+[12:13:27] [Server thread/INFO]: Time elapsed: 1304 ms
+[12:13:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:13:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:13:28] [Server thread/INFO]: Preparing spawn area: 0%
+[12:13:28] [Server thread/INFO]: Time elapsed: 338 ms
+[12:13:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:13:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:13:29] [Server thread/INFO]: Time elapsed: 799 ms
+[12:13:29] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta5-431*
+[12:13:29] [Server thread/INFO]: [dynmap] Added 4 custom biome mappings
+[12:13:29] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[12:13:29] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[12:13:30] [Server thread/WARN]: [dynmap] cwebp or dwebp not found, or cwebpPath or dwebpPath is invalid: webp format disabled
+[12:13:30] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[12:13:31] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[12:13:31] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[12:13:31] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:80
+[12:13:31] [Server thread/INFO]: [dynmap] version 3.1-beta5-431 is enabled - core version 3.1-beta5-431
+[12:13:31] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[12:13:31] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[12:13:31] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 13 pending tile renders for world 'world'
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[12:13:31] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[12:13:31] [Server thread/INFO]: [dynmap] Enabled
+[12:13:31] [Server thread/INFO]: [tpa] Enabling tpa v1.0*
+[12:13:32] [Server thread/INFO]: [tpa] Successfully enabled version 1.0!
+[12:13:32] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.45.2
+[12:13:32] [Server thread/INFO]: [1m[32m**************************************[0m
+[12:13:32] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m Loading...
+[12:13:32] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/config.yml
+[12:13:32] [Server thread/INFO]: Checking for updates...
+[12:13:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/permissions.yml
+[12:13:33] [Server thread/INFO]: [1m[32m**************************************[0m
+[12:13:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m is ENABLED
+[12:13:33] [Server thread/INFO]: [1m[32m**************************************[0m
+[12:13:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[12:13:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[12:13:33] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m jarfilename=/home/efoleylewis/bradsmp/Server/plugins/SinglePlayerSleep-1.13_2.13.45.2.jar
+[12:13:33] [Server thread/INFO]: [floodgate-bukkit] Enabling floodgate-bukkit v1.0-SNAPSHOT
+[12:13:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.0-SNAPSHOT
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] 
+[12:13:34] [Server thread/WARN]: [Geyser-Spigot] en_ is not a valid Bedrock language.
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.0-SNAPSHOT (git-master-199778f)
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] 
+[12:13:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:13:34] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[12:13:35] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[12:13:43] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[12:13:44] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[12:13:44] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[12:13:44] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[12:13:44] [Server thread/INFO]: [Geyser-Spigot] Done (10.553s)! Run /geyser help for help!
+[12:13:44] [Server thread/INFO]: [CCTV] Enabling CCTV v6.6b*
+[12:13:44] [Server thread/INFO]: v1_16_R3.
+[12:13:45] [Server thread/INFO]: [CCTV] .-==--+]- CCTV -[+--==-.
+[12:13:45] [Server thread/INFO]: [CCTV] This is the CCTV plugin!
+[12:13:45] [Server thread/INFO]: [CCTV] Authors: Timdecoole123, Streampy
+[12:13:45] [Server thread/INFO]: [CCTV] For updates check our spigot or bukkit page
+[12:13:45] [Server thread/INFO]: [CCTV] Spigot: https://www.spigotmc.org/resources/cctv.60310/
+[12:13:45] [Server thread/INFO]: [CCTV] Bukkit: https://dev.bukkit.org/projects/cctv
+[12:13:45] [Server thread/INFO]: [CCTV] To report bugs go to the spigot or bukkit page and send us a message!
+[12:13:45] [Server thread/INFO]: [CCTV] .-==--+]-      -[+--==-.
+[12:13:45] [Server thread/INFO]: Running delayed init tasks
+[12:13:45] [Server thread/INFO]: Done (26.647s)! For help, type "help"
+[12:13:45] [Server thread/INFO]: Timings Reset
+[12:13:46] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[12:13:51] [User Authenticator #1/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:13:51] [Server thread/INFO]: Morgymop joined the game
+[12:13:51] [Server thread/INFO]: Morgymop[/117.20.68.3:12856] logged in with entity id 172 at ([world]1629.160624999131, 66.0, 893.1714513132065)
+[12:14:05] [User Authenticator #1/INFO]: UUID of player yolo_for_life is ab1e9bc5-0df1-4d45-b09e-051798c95add
+[12:14:05] [Server thread/INFO]: yolo_for_life joined the game
+[12:14:05] [Server thread/INFO]: yolo_for_life[/144.134.85.231:53295] logged in with entity id 408 at ([world]1628.32598709827, 66.0, 896.2788208045436)
+[12:14:05] [Async Chat Thread - #0/INFO]: <Morgymop> thanks server
+[12:17:46] [User Authenticator #2/INFO]: UUID of player SonicKreepa11 is 53cb5715-feeb-4c2b-b838-bfa79e840d03
+[12:17:46] [Server thread/INFO]: SonicKreepa11 joined the game
+[12:17:46] [Server thread/INFO]: SonicKreepa11[/117.20.69.36:10944] logged in with entity id 751 at ([world]1853.061278398229, 65.9375, 467.88650541375273)
+[12:18:44] [Craft Scheduler Thread - 4/INFO]: Auto-saved all files!
+[12:21:18] [User Authenticator #3/INFO]: UUID of player DonutBother is ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+[12:21:18] [Server thread/INFO]: DonutBother joined the game
+[12:21:18] [Server thread/INFO]: DonutBother[/101.177.139.142:60974] logged in with entity id 2894 at ([world]1820.534421806844, 63.9375, 460.25519774487395)
+[12:22:28] [Server thread/INFO]: DonutBother issued server command: /gamemode s
+[12:22:30] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[12:22:30] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[12:22:58] [Server thread/INFO]: yolo_for_life has made the advancement [Best Friends Forever]
+[12:23:44] [Craft Scheduler Thread - 5/INFO]: Auto-saved all files!
+[12:25:51] [Async Chat Thread - #1/INFO]: <DonutBother> Jamie, did you harvest the farm?
+[12:25:54] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[12:25:54] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[12:26:10] [Async Chat Thread - #1/INFO]: <SonicKreepa11> dont think so
+[12:26:19] [Async Chat Thread - #1/INFO]: <DonutBother> The carrot farm, that is
+[12:26:21] [Async Chat Thread - #1/INFO]: <SonicKreepa11> the carrot one that is now empty?
+[12:26:32] [Async Chat Thread - #1/INFO]: <SonicKreepa11> no that was defineteley not me
+[12:26:44] [Async Chat Thread - #1/INFO]: <DonutBother> Uh, no, nevermind. I know who it is. It's the same reason the iron farm is screwed
+[12:26:55] [Async Chat Thread - #1/INFO]: <SonicKreepa11> sigh
+[12:27:04] [Async Chat Thread - #1/INFO]: <SonicKreepa11> how dare they
+[12:28:08] [Server thread/INFO]: DonutBother issued server command: /ban NemesisNemesis Excessive griefing. Unbanned on 28/11/20
+[12:28:08] [Server thread/INFO]: [DonutBother: Banned NemesisNemesis: Excessive griefing. Unbanned on 28/11/20]
+[12:28:15] [Async Chat Thread - #2/INFO]: <DonutBother> Jared is banned until the 28th
+[12:28:44] [Craft Scheduler Thread - 6/INFO]: Auto-saved all files!
+[12:28:58] [Async Chat Thread - #2/INFO]: <DonutBother> Morgan, do you still have carrots?
+[12:29:14] [Async Chat Thread - #2/INFO]: <Morgymop> Indeed
+[12:29:24] [Async Chat Thread - #2/INFO]: <DonutBother> I will be there shortly
+[12:29:52] [Server thread/INFO]: Villager EntityVillager['Farmer'/763, uuid='54e7cd88-c9f0-4b76-ac1e-bc8e8c54d246', l='ServerLevel[world]', x=1843.91, y=65.42, z=439.36, cx=115, cz=27, tl=644342, v=true, d=false] died, message: 'Farmer burned to death'
+[12:30:10] [Async Chat Thread - #2/INFO]: <Morgymop> how many
+[12:30:14] [Async Chat Thread - #2/INFO]: <DonutBother> 5?
+[12:30:28] [Async Chat Thread - #2/INFO]: <DonutBother> Alright, thanks
+[12:30:30] [Async Chat Thread - #2/INFO]: <Morgymop> do u like my house
+[12:30:39] [Async Chat Thread - #2/INFO]: <DonutBother> It's moving along
+[12:30:43] [Async Chat Thread - #2/INFO]: <Morgymop> Yay
+[12:33:44] [Craft Scheduler Thread - 7/INFO]: Auto-saved all files!
+[12:37:49] [Async Chat Thread - #3/INFO]: <DonutBother> Iron farm is restored
+[12:38:21] [Async Chat Thread - #3/INFO]: <Morgymop> what
+[12:38:44] [Craft Scheduler Thread - 8/INFO]: Auto-saved all files!
+[12:39:58] [Async Chat Thread - #4/INFO]: <Morgymop> what are u doing fool
+[12:40:10] [Async Chat Thread - #4/INFO]: <Morgymop> stay back
+[12:40:14] [Async Chat Thread - #4/INFO]: <Morgymop> dont
+[12:40:29] [Async Chat Thread - #4/INFO]: <Morgymop> get out
+[12:40:41] [Async Chat Thread - #4/INFO]: <DonutBother> I just gave you 8 dark oak planks
+[12:40:45] [Async Chat Thread - #4/INFO]: <Morgymop> oh
+[12:40:51] [Async Chat Thread - #4/INFO]: <Morgymop> could have just said
+[12:41:06] [Async Chat Thread - #4/INFO]: <DonutBother> You want these?
+[12:41:12] [Async Chat Thread - #4/INFO]: <Morgymop> sure
+[12:41:45] [Async Chat Thread - #4/INFO]: <Morgymop> how many diamonds for an elytra
+[12:41:50] [Server thread/INFO]: DonutBother fell from a high place
+[12:41:53] [Async Chat Thread - #4/INFO]: <Morgymop> wow
+[12:41:57] [Async Chat Thread - #4/INFO]: <DonutBother> I only have 1
+[12:43:44] [Craft Scheduler Thread - 9/INFO]: Auto-saved all files!
+[12:44:53] [Async Chat Thread - #5/INFO]: <DonutBother> Enderman vwoops
+[12:45:54] [Server thread/INFO]: DonutBother issued server command: /w yolo_for_life shh
+[12:46:22] [Server thread/INFO]: DonutBother issued server command: /w Morgymop I mean no harm, only pranks
+[12:46:38] [Server thread/INFO]: Morgymop issued server command: /msg DonutBother what did u do
+[12:46:46] [Server thread/INFO]: DonutBother issued server command: /w Morgymop What do you mean?
+[12:47:06] [Server thread/INFO]: Morgymop issued server command: /msg DonutBother i thought u did something
+[12:47:16] [Server thread/INFO]: DonutBother issued server command: /w Morgymop Yeah, what do you mean?
+[12:47:29] [Server thread/INFO]: Morgymop issued server command: /msg DonutBother dont worry
+[12:48:44] [Craft Scheduler Thread - 10/INFO]: Auto-saved all files!
+[12:50:17] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[12:50:17] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[12:51:43] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[12:51:43] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[12:52:35] [Async Chat Thread - #6/INFO]: <DonutBother> wow
+[12:52:39] [Async Chat Thread - #6/INFO]: <Morgymop> WTF R U DOING
+[12:52:41] [Async Chat Thread - #6/INFO]: <DonutBother> This is huge
+[12:52:50] [Async Chat Thread - #6/INFO]: <Morgymop> GET THE FUCK OUT NOW
+[12:52:52] [Async Chat Thread - #6/INFO]: <DonutBother> I was coming back and two creepers blew up
+[12:52:54] [Async Chat Thread - #6/INFO]: <SonicKreepa11> that's what she said
+[12:53:00] [Async Chat Thread - #6/INFO]: <Morgymop> GO AWAT
+[12:53:44] [Craft Scheduler Thread - 11/INFO]: Auto-saved all files!
+[12:53:59] [Server thread/INFO]: yolo_for_life lost connection: Disconnected
+[12:53:59] [Server thread/INFO]: yolo_for_life left the game
+[12:54:53] [Async Chat Thread - #7/INFO]: <DonutBother> Excalibur
+[12:56:16] [Server thread/INFO]: Morgymop was slain by Enderman
+[12:58:44] [Craft Scheduler Thread - 12/INFO]: Auto-saved all files!
+[13:03:44] [Craft Scheduler Thread - 13/INFO]: Auto-saved all files!
+[13:04:22] [Async Chat Thread - #8/INFO]: <SonicKreepa11> OMG THE MAP FELL OVER
+[13:04:32] [Async Chat Thread - #8/INFO]: <DonutBother> Riley moved it, not sure why
+[13:04:53] [Async Chat Thread - #8/INFO]: <SonicKreepa11> Oh whack
+[13:05:30] [Async Chat Thread - #8/INFO]: <SonicKreepa11> do we have a ocllection of coal somehwere
+[13:08:44] [Craft Scheduler Thread - 14/INFO]: Auto-saved all files!
+[13:12:13] [Server thread/INFO]: SonicKreepa11 lost connection: Disconnected
+[13:12:13] [Server thread/INFO]: SonicKreepa11 left the game
+[13:12:18] [User Authenticator #4/INFO]: UUID of player SonicKreepa11 is 53cb5715-feeb-4c2b-b838-bfa79e840d03
+[13:12:18] [Server thread/INFO]: SonicKreepa11 joined the game
+[13:12:18] [Server thread/INFO]: SonicKreepa11[/117.20.69.36:11073] logged in with entity id 22306 at ([world]1830.9442057277395, 65.0, 458.3729893507503)
+[13:12:25] [Async Chat Thread - #9/INFO]: <SonicKreepa11> oops
+[13:13:34] [Async Chat Thread - #10/INFO]: <SonicKreepa11> i have 18 full stacks of dirt
+[13:13:44] [Craft Scheduler Thread - 15/INFO]: Auto-saved all files!
+[13:18:44] [Craft Scheduler Thread - 16/INFO]: Auto-saved all files!
+[13:20:16] [Server thread/INFO]: Morgymop issued server command: /tpa
+[13:20:18] [Server thread/INFO]: Morgymop issued server command: /tpa DonutBother
+[13:20:29] [Server thread/INFO]: DonutBother issued server command: /tpaccept
+[13:22:00] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[13:22:59] [Server thread/INFO]: SonicKreepa11 was blown up by Creeper
+[13:23:16] [Async Chat Thread - #11/INFO]: <DonutBother> where was that?
+[13:23:44] [Craft Scheduler Thread - 17/INFO]: Auto-saved all files!
+[13:23:45] [Server thread/INFO]: Morgymop was blown up by Creeper
+[13:23:56] [Async Chat Thread - #11/INFO]: <SonicKreepa11> just outside ht efence
+[13:24:05] [Async Chat Thread - #11/INFO]: <SonicKreepa11> by the bamboo
+[13:26:04] [Async Chat Thread - #12/INFO]: <DonutBother> Did you get it back?
+[13:26:17] [Async Chat Thread - #12/INFO]: <SonicKreepa11> yes
+[13:26:45] [Async Chat Thread - #12/INFO]: <DonutBother> Jamie, are you placing blocks against the fence to get in and out?
+[13:26:54] [Server thread/INFO]: Villager EntityVillager['Villager'/853, uuid='5ea98fb7-9de9-430a-8276-4a6c791d32f2', l='ServerLevel[world]', x=1833.70, y=66.00, z=504.85, cx=114, cz=31, tl=277687, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[13:26:56] [Async Chat Thread - #12/INFO]: <SonicKreepa11> maybe...
+[13:27:13] [Async Chat Thread - #12/INFO]: <DonutBother> Just make sure you remove them, zombies and villagers can get out and in and it causes issues
+[13:27:13] [Async Chat Thread - #12/INFO]: <SonicKreepa11> it's a bad idea
+[13:27:27] [Async Chat Thread - #12/INFO]: <SonicKreepa11> yees, u are correct
+[13:27:39] [Async Chat Thread - #12/INFO]: <SonicKreepa11> i will do that
+[13:27:47] [Async Chat Thread - #12/INFO]: <DonutBother> Alrighty
+[13:28:44] [Craft Scheduler Thread - 18/INFO]: Auto-saved all files!
+[13:29:04] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[13:29:04] [Server thread/INFO]: DonutBother left the game
+[13:33:44] [Craft Scheduler Thread - 19/INFO]: Auto-saved all files!
+[13:34:11] [Server thread/INFO]: SonicKreepa11 lost connection: Disconnected
+[13:34:11] [Server thread/INFO]: SonicKreepa11 left the game
+[13:38:44] [Craft Scheduler Thread - 20/INFO]: Auto-saved all files!
+[13:43:44] [Craft Scheduler Thread - 21/INFO]: Auto-saved all files!
+[13:48:44] [Craft Scheduler Thread - 22/INFO]: Auto-saved all files!
+[13:53:44] [Craft Scheduler Thread - 23/INFO]: Auto-saved all files!
+[13:58:44] [Craft Scheduler Thread - 24/INFO]: Auto-saved all files!
+[14:03:44] [Craft Scheduler Thread - 25/INFO]: Auto-saved all files!
+[14:08:44] [Craft Scheduler Thread - 26/INFO]: Auto-saved all files!
+[14:09:20] [Server thread/INFO]: Morgymop has completed the challenge [Sniper Duel]
+[14:13:44] [Craft Scheduler Thread - 27/INFO]: Auto-saved all files!
+[14:18:44] [Craft Scheduler Thread - 28/INFO]: Auto-saved all files!
+[14:23:44] [Craft Scheduler Thread - 29/INFO]: Auto-saved all files!
+[14:28:44] [Craft Scheduler Thread - 30/INFO]: Auto-saved all files!
+[14:33:44] [Craft Scheduler Thread - 31/INFO]: Auto-saved all files!
+[14:38:44] [Craft Scheduler Thread - 32/INFO]: Auto-saved all files!
+[14:39:21] [Server thread/INFO]: [WEB] Areafairy2: this guy
+[14:39:38] [Async Chat Thread - #13/INFO]: <Morgymop> which guy
+[14:42:33] [Server thread/INFO]: Morgymop was slain by Zombie
+[14:43:44] [Craft Scheduler Thread - 33/INFO]: Auto-saved all files!
+[14:48:44] [Craft Scheduler Thread - 34/INFO]: Auto-saved all files!
+[14:53:44] [Craft Scheduler Thread - 35/INFO]: Auto-saved all files!
+[14:58:44] [Craft Scheduler Thread - 36/INFO]: Auto-saved all files!
+[15:03:44] [Craft Scheduler Thread - 37/INFO]: Auto-saved all files!
+[15:04:13] [Server thread/INFO]: Morgymop lost connection: Disconnected
+[15:04:13] [Server thread/INFO]: Morgymop left the game
+[15:08:44] [Craft Scheduler Thread - 38/INFO]: Auto-saved all files!
+[15:13:44] [Craft Scheduler Thread - 39/INFO]: Auto-saved all files!
+[15:18:44] [Craft Scheduler Thread - 40/INFO]: Auto-saved all files!
+[15:23:44] [Craft Scheduler Thread - 41/INFO]: Auto-saved all files!
+[15:28:44] [Craft Scheduler Thread - 42/INFO]: Auto-saved all files!
+[15:33:44] [Craft Scheduler Thread - 43/INFO]: Auto-saved all files!
+[15:38:44] [Craft Scheduler Thread - 44/INFO]: Auto-saved all files!
+[15:43:44] [Craft Scheduler Thread - 45/INFO]: Auto-saved all files!
+[15:48:44] [Craft Scheduler Thread - 46/INFO]: Auto-saved all files!
+[15:53:44] [Craft Scheduler Thread - 47/INFO]: Auto-saved all files!
+[15:58:44] [Craft Scheduler Thread - 48/INFO]: Auto-saved all files!
+[16:03:44] [Craft Scheduler Thread - 49/INFO]: Auto-saved all files!
+[16:08:44] [Craft Scheduler Thread - 50/INFO]: Auto-saved all files!
+[16:13:44] [Craft Scheduler Thread - 51/INFO]: Auto-saved all files!
+[16:18:44] [Craft Scheduler Thread - 52/INFO]: Auto-saved all files!
+[16:23:44] [Craft Scheduler Thread - 53/INFO]: Auto-saved all files!
+[16:28:44] [Craft Scheduler Thread - 54/INFO]: Auto-saved all files!
+[16:33:44] [Craft Scheduler Thread - 55/INFO]: Auto-saved all files!
+[16:38:44] [Craft Scheduler Thread - 56/INFO]: Auto-saved all files!
+[16:43:44] [Craft Scheduler Thread - 57/INFO]: Auto-saved all files!
+[16:48:44] [Craft Scheduler Thread - 58/INFO]: Auto-saved all files!
+[16:53:44] [Craft Scheduler Thread - 59/INFO]: Auto-saved all files!
+[16:58:44] [Craft Scheduler Thread - 60/INFO]: Auto-saved all files!
+[17:03:44] [Craft Scheduler Thread - 61/INFO]: Auto-saved all files!
+[17:08:44] [Craft Scheduler Thread - 62/INFO]: Auto-saved all files!
+[17:13:44] [Craft Scheduler Thread - 63/INFO]: Auto-saved all files!
+[17:18:44] [Craft Scheduler Thread - 64/INFO]: Auto-saved all files!
+[17:23:44] [Craft Scheduler Thread - 65/INFO]: Auto-saved all files!
+[17:28:44] [Craft Scheduler Thread - 66/INFO]: Auto-saved all files!
+[17:33:44] [Craft Scheduler Thread - 67/INFO]: Auto-saved all files!
+[17:38:44] [Craft Scheduler Thread - 68/INFO]: Auto-saved all files!
+[17:43:44] [Craft Scheduler Thread - 69/INFO]: Auto-saved all files!
+[17:48:44] [Craft Scheduler Thread - 70/INFO]: Auto-saved all files!
+[17:53:44] [Craft Scheduler Thread - 71/INFO]: Auto-saved all files!
+[17:58:44] [Craft Scheduler Thread - 72/INFO]: Auto-saved all files!
+[18:03:44] [Craft Scheduler Thread - 73/INFO]: Auto-saved all files!
+[18:08:44] [Craft Scheduler Thread - 74/INFO]: Auto-saved all files!
+[18:13:44] [Craft Scheduler Thread - 75/INFO]: Auto-saved all files!
+[18:18:44] [Craft Scheduler Thread - 76/INFO]: Auto-saved all files!
+[18:23:44] [Craft Scheduler Thread - 77/INFO]: Auto-saved all files!
+[18:28:44] [Craft Scheduler Thread - 78/INFO]: Auto-saved all files!
+[18:33:44] [Craft Scheduler Thread - 79/INFO]: Auto-saved all files!
+[18:38:44] [Craft Scheduler Thread - 80/INFO]: Auto-saved all files!
+[18:43:44] [Craft Scheduler Thread - 81/INFO]: Auto-saved all files!
+[18:48:44] [Craft Scheduler Thread - 82/INFO]: Auto-saved all files!
+[18:53:44] [Craft Scheduler Thread - 83/INFO]: Auto-saved all files!
+[18:58:44] [Craft Scheduler Thread - 84/INFO]: Auto-saved all files!
+[19:03:44] [Craft Scheduler Thread - 85/INFO]: Auto-saved all files!
+[19:08:44] [Craft Scheduler Thread - 86/INFO]: Auto-saved all files!
+[19:13:44] [Craft Scheduler Thread - 87/INFO]: Auto-saved all files!
+[19:18:44] [Craft Scheduler Thread - 88/INFO]: Auto-saved all files!
+[19:23:44] [Craft Scheduler Thread - 89/INFO]: Auto-saved all files!
+[19:28:44] [Craft Scheduler Thread - 90/INFO]: Auto-saved all files!
+[19:33:44] [Craft Scheduler Thread - 91/INFO]: Auto-saved all files!
+[19:38:44] [Craft Scheduler Thread - 92/INFO]: Auto-saved all files!
+[19:43:44] [Craft Scheduler Thread - 93/INFO]: Auto-saved all files!
+[19:48:44] [Craft Scheduler Thread - 94/INFO]: Auto-saved all files!
+[19:53:44] [Craft Scheduler Thread - 95/INFO]: Auto-saved all files!
+[19:58:44] [Craft Scheduler Thread - 96/INFO]: Auto-saved all files!
+[20:03:44] [Craft Scheduler Thread - 97/INFO]: Auto-saved all files!
+[20:08:44] [Craft Scheduler Thread - 98/INFO]: Auto-saved all files!
+[20:13:44] [Craft Scheduler Thread - 99/INFO]: Auto-saved all files!
+[20:18:44] [Craft Scheduler Thread - 100/INFO]: Auto-saved all files!
+[20:23:44] [Craft Scheduler Thread - 101/INFO]: Auto-saved all files!
+[20:28:44] [Craft Scheduler Thread - 102/INFO]: Auto-saved all files!
+[20:33:44] [Craft Scheduler Thread - 103/INFO]: Auto-saved all files!
+[20:38:44] [Craft Scheduler Thread - 104/INFO]: Auto-saved all files!
+[20:43:44] [Craft Scheduler Thread - 105/INFO]: Auto-saved all files!
+[20:48:44] [Craft Scheduler Thread - 106/INFO]: Auto-saved all files!
+[20:53:44] [Craft Scheduler Thread - 107/INFO]: Auto-saved all files!
+[20:58:44] [Craft Scheduler Thread - 108/INFO]: Auto-saved all files!
+[21:03:44] [Craft Scheduler Thread - 109/INFO]: Auto-saved all files!
+[21:08:44] [Craft Scheduler Thread - 110/INFO]: Auto-saved all files!
+[21:13:44] [Craft Scheduler Thread - 111/INFO]: Auto-saved all files!
+[21:18:44] [Craft Scheduler Thread - 112/INFO]: Auto-saved all files!
+[21:23:44] [Craft Scheduler Thread - 113/INFO]: Auto-saved all files!
+[21:28:44] [Craft Scheduler Thread - 114/INFO]: Auto-saved all files!
+[21:33:44] [Craft Scheduler Thread - 115/INFO]: Auto-saved all files!
+[21:38:44] [Craft Scheduler Thread - 116/INFO]: Auto-saved all files!
+[21:43:44] [Craft Scheduler Thread - 117/INFO]: Auto-saved all files!
+[21:48:44] [Craft Scheduler Thread - 118/INFO]: Auto-saved all files!
+[21:53:44] [Craft Scheduler Thread - 119/INFO]: Auto-saved all files!
+[21:58:44] [Craft Scheduler Thread - 120/INFO]: Auto-saved all files!
+[22:03:44] [Craft Scheduler Thread - 121/INFO]: Auto-saved all files!
+[22:08:44] [Craft Scheduler Thread - 122/INFO]: Auto-saved all files!
+[22:13:44] [Craft Scheduler Thread - 123/INFO]: Auto-saved all files!
+[22:18:44] [Craft Scheduler Thread - 124/INFO]: Auto-saved all files!
+[22:23:44] [Craft Scheduler Thread - 125/INFO]: Auto-saved all files!
+[22:28:44] [Craft Scheduler Thread - 126/INFO]: Auto-saved all files!
+[22:33:44] [Craft Scheduler Thread - 127/INFO]: Auto-saved all files!
+[22:38:44] [Craft Scheduler Thread - 128/INFO]: Auto-saved all files!
+[22:43:44] [Craft Scheduler Thread - 129/INFO]: Auto-saved all files!
+[22:48:44] [Craft Scheduler Thread - 130/INFO]: Auto-saved all files!
+[22:53:44] [Craft Scheduler Thread - 131/INFO]: Auto-saved all files!
+[22:58:44] [Craft Scheduler Thread - 132/INFO]: Auto-saved all files!
+[23:03:44] [Craft Scheduler Thread - 133/INFO]: Auto-saved all files!
+[23:08:44] [Craft Scheduler Thread - 134/INFO]: Auto-saved all files!
+[23:13:44] [Craft Scheduler Thread - 135/INFO]: Auto-saved all files!
+[23:18:44] [Craft Scheduler Thread - 136/INFO]: Auto-saved all files!
+[23:23:44] [Craft Scheduler Thread - 137/INFO]: Auto-saved all files!
+[23:28:44] [Craft Scheduler Thread - 138/INFO]: Auto-saved all files!
+[23:33:44] [Craft Scheduler Thread - 139/INFO]: Auto-saved all files!
+[23:38:44] [Craft Scheduler Thread - 140/INFO]: Auto-saved all files!
+[23:43:44] [Craft Scheduler Thread - 141/INFO]: Auto-saved all files!
+[23:48:44] [Craft Scheduler Thread - 142/INFO]: Auto-saved all files!
+[23:53:44] [Craft Scheduler Thread - 143/INFO]: Auto-saved all files!
+[23:58:44] [Craft Scheduler Thread - 144/INFO]: Auto-saved all files!

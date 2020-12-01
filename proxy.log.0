@@ -1,0 +1,1123 @@
+23:08:02 [INFO] Using standard Java JCE cipher.
+23:08:02 [INFO] Using standard Java compressor.
+23:08:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+23:08:02 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+23:08:02 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:02 [INFO] Attempting to Jenkins download module cmd_alert v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:03 [INFO] Attempting to Jenkins download module cmd_find v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:03 [INFO] Attempting to Jenkins download module cmd_list v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:03 [INFO] Attempting to Jenkins download module cmd_send v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:03 [INFO] Attempting to Jenkins download module cmd_server v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Attempting to update plugin from null to ModuleVersion(build=1539, git=9c078b7)
+
+23:08:03 [INFO] Attempting to Jenkins download module reconnect_yaml v1539
+
+23:08:03 [INFO] Download complete
+
+23:08:03 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:08:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:03 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:08:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:03 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:08:04 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+23:08:04 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:08:04 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:08:04 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:04 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:04 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:04 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:08:04 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:04 [WARNING] Forced host server pvp is not defined
+23:08:04 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+23:08:04 [INFO] [Geyser-BungeeCord] ******************************************
+23:08:04 [INFO] [Geyser-BungeeCord] 
+23:08:04 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+23:08:04 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+23:08:04 [INFO] [Geyser-BungeeCord] 
+23:08:04 [INFO] [Geyser-BungeeCord] ******************************************
+23:08:10 [INFO] [Geyser-BungeeCord] Downloading Minecraft JAR to extract en_us locale, please wait... (this may take some time depending on the speed of your internet connection)
+23:08:15 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+23:08:15 [INFO] [Geyser-BungeeCord] Done (10.865s)! Run /geyser help for help!
+23:08:15 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:08:15 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:08:15 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:08:15 [INFO] Listening on /0.0.0.0:25577
+23:22:09 [INFO] Using standard Java JCE cipher.
+23:22:09 [INFO] Using standard Java compressor.
+23:22:09 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+23:22:09 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+23:22:09 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:22:09 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:09 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:22:09 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:09 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:22:09 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+23:22:09 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:22:09 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:22:09 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:09 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:09 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:09 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+23:22:09 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:10 [WARNING] Forced host server pvp is not defined
+23:22:10 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+23:22:10 [INFO] [Geyser-BungeeCord] ******************************************
+23:22:10 [INFO] [Geyser-BungeeCord] 
+23:22:10 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+23:22:10 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+23:22:10 [INFO] [Geyser-BungeeCord] 
+23:22:10 [INFO] [Geyser-BungeeCord] ******************************************
+23:22:16 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+23:22:16 [INFO] [Geyser-BungeeCord] Done (6.758s)! Run /geyser help for help!
+23:22:16 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:22:16 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:16 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:16 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:22:16 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:16 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:16 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:16 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:22:17 [INFO] Listening on /0.0.0.0:25577
+23:46:32 [INFO] Using standard Java JCE cipher.
+23:46:32 [INFO] Using standard Java compressor.
+23:46:32 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+23:46:33 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:46:33 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:46:33 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:46:33 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:46:33 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+23:46:33 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:46:33 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:46:33 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:46:33 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:33 [WARNING] Forced host server pvp is not defined
+23:46:33 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+23:46:33 [INFO] [Geyser-BungeeCord] ******************************************
+23:46:33 [INFO] [Geyser-BungeeCord] 
+23:46:33 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+23:46:33 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+23:46:33 [INFO] [Geyser-BungeeCord] 
+23:46:33 [INFO] [Geyser-BungeeCord] ******************************************
+23:46:45 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+23:46:46 [INFO] [Geyser-BungeeCord] Done (12.24s)! Run /geyser help for help!
+23:46:46 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:46:46 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:46:46 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:46:46 [INFO] Listening on /0.0.0.0:25577
+23:47:28 [INFO] [Geyser-BungeeCord] /0:0:0:0:0:0:0:1:53476 tried to connect!
+23:47:29 [INFO] [Geyser-BungeeCord] Player connected with username Totodile20
+23:47:36 [INFO] [Geyser-BungeeCord] Attempting to login using floodgate mode... authentication will be encrypted.
+23:47:36 [INFO] [Geyser-BungeeCord] Loaded Floodgate key!
+23:47:36 [INFO] [Geyser-BungeeCord] Totodile20 (logged in as: Totodile20) has connected to remote java server on address 25.40.185.59
+23:47:37 [INFO] [/25.40.185.59:54791] <-> InitialHandler has connected
+23:47:37 [INFO] [DonutBother] <-> ServerConnector [lobby] has connected
+23:47:37 [SEVERE] [DonutBother] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+23:47:37 [INFO] [DonutBother] disconnected with: §fException Connecting:QuietException : Server is online mode!
+23:47:37 [INFO] Removed Bedrock player who was logged in as DonutBother ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+23:47:37 [INFO] [DonutBother] -> UpstreamBridge has disconnected
+23:47:37 [INFO] [DonutBother] <-> ServerConnector [lobby] has disconnected
+23:47:37 [INFO] [Geyser-BungeeCord] Totodile20 has disconnected from remote Java server on address 25.40.185.59 because of Exception Connecting:QuietException : Server is online mode!
+23:47:37 [INFO] [Geyser-BungeeCord] Bedrock user with ip: /0:0:0:0:0:0:0:1 has disconnected for reason CLOSED_BY_REMOTE_PEER
+23:53:26 [INFO] §cCommand not found
+23:53:27 [INFO] Closing listener [id: 0x456962e2, L:/0:0:0:0:0:0:0:0:25577]
+23:53:27 [INFO] Closing pending connections
+23:53:27 [INFO] Disconnecting 0 connections
+23:53:28 [INFO] Saving reconnect locations
+23:53:28 [INFO] Disabling plugins
+23:53:28 [INFO] [Geyser-BungeeCord] Shutting down Geyser.
+23:53:28 [INFO] [Geyser-BungeeCord] Geyser shutdown successfully.
+23:53:28 [INFO] Closing IO threads
+23:54:10 [INFO] Using standard Java JCE cipher.
+23:54:10 [INFO] Using standard Java compressor.
+23:54:10 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+23:54:10 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:54:10 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:54:10 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:54:10 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:54:10 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:54:10 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:54:11 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:54:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:11 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:54:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:11 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:54:11 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+23:54:12 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:54:12 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:54:12 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:12 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:54:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:12 [WARNING] Forced host server pvp is not defined
+23:54:12 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+23:54:12 [INFO] [Geyser-BungeeCord] ******************************************
+23:54:12 [INFO] [Geyser-BungeeCord] 
+23:54:12 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+23:54:12 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+23:54:12 [INFO] [Geyser-BungeeCord] 
+23:54:12 [INFO] [Geyser-BungeeCord] ******************************************
+23:54:28 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+23:54:28 [INFO] [Geyser-BungeeCord] Done (15.965s)! Run /geyser help for help!
+23:54:28 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:54:28 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:28 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:28 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:54:28 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:28 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:28 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:28 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:54:29 [INFO] Listening on /0.0.0.0:25577
+23:54:29 [INFO] [Geyser-BungeeCord] /0:0:0:0:0:0:0:1:53476 tried to connect!
+23:54:30 [INFO] [Geyser-BungeeCord] Player connected with username Totodile20
+23:54:36 [INFO] [Geyser-BungeeCord] Attempting to login using floodgate mode... authentication will be encrypted.
+23:54:36 [INFO] [Geyser-BungeeCord] Loaded Floodgate key!
+23:54:36 [INFO] [Geyser-BungeeCord] Totodile20 (logged in as: Totodile20) has connected to remote java server on address 25.40.185.59
+23:54:36 [INFO] [/25.40.185.59:55537] <-> InitialHandler has connected
+23:54:36 [INFO] [DonutBother] <-> ServerConnector [lobby] has connected
+23:54:36 [SEVERE] [DonutBother] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+23:54:36 [INFO] [DonutBother] disconnected with: §fException Connecting:QuietException : Server is online mode!
+23:54:36 [INFO] Removed Bedrock player who was logged in as DonutBother ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+23:54:36 [INFO] [DonutBother] -> UpstreamBridge has disconnected
+23:54:36 [INFO] [DonutBother] <-> ServerConnector [lobby] has disconnected
+23:54:36 [INFO] [Geyser-BungeeCord] Totodile20 has disconnected from remote Java server on address 25.40.185.59 because of Exception Connecting:QuietException : Server is online mode!
+23:54:36 [INFO] [Geyser-BungeeCord] Bedrock user with ip: /0:0:0:0:0:0:0:1 has disconnected for reason CLOSED_BY_REMOTE_PEER
+23:55:58 [INFO] Closing listener [id: 0x208a3b8a, L:/0:0:0:0:0:0:0:0:25577]
+23:55:58 [INFO] Closing pending connections
+23:55:58 [INFO] Disconnecting 0 connections
+23:55:58 [INFO] Saving reconnect locations
+23:55:58 [INFO] Disabling plugins
+23:55:58 [INFO] [Geyser-BungeeCord] Shutting down Geyser.
+23:55:58 [INFO] [Geyser-BungeeCord] Geyser shutdown successfully.
+23:55:58 [INFO] Closing IO threads
+23:56:54 [INFO] Using standard Java JCE cipher.
+23:56:54 [INFO] Using standard Java compressor.
+23:56:54 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+23:56:54 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:56:54 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:56:54 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:56:54 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:56:54 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+23:56:54 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:56:54 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:56:54 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+23:56:54 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:56:54 [WARNING] Forced host server pvp is not defined
+23:56:54 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+23:56:54 [INFO] [Geyser-BungeeCord] ******************************************
+23:56:54 [INFO] [Geyser-BungeeCord] 
+23:56:54 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+23:56:54 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+23:56:54 [INFO] [Geyser-BungeeCord] 
+23:56:54 [INFO] [Geyser-BungeeCord] ******************************************
+23:57:05 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+23:57:05 [INFO] [Geyser-BungeeCord] Done (10.713s)! Run /geyser help for help!
+23:57:05 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+23:57:05 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:05 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:05 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+23:57:05 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:05 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:05 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:05 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+23:57:06 [INFO] Listening on /0.0.0.0:25577
+23:57:30 [INFO] [Geyser-BungeeCord] /0:0:0:0:0:0:0:1:53476 tried to connect!
+23:57:31 [INFO] [Geyser-BungeeCord] Player connected with username Totodile20
+23:57:36 [INFO] [Geyser-BungeeCord] Attempting to login using floodgate mode... authentication will be encrypted.
+23:57:36 [INFO] [Geyser-BungeeCord] Loaded Floodgate key!
+23:57:36 [INFO] [Geyser-BungeeCord] Totodile20 (logged in as: Totodile20) has connected to remote java server on address 25.40.185.59
+23:57:36 [INFO] [/25.40.185.59:55831] <-> InitialHandler has connected
+23:57:36 [INFO] [DonutBother] <-> ServerConnector [lobby] has connected
+23:57:37 [INFO] [Geyser-BungeeCord] Spawned player at 2,227.5 66 1.5
+23:57:51 [INFO] [Geyser-BungeeCord] Bedrock user with ip: /0:0:0:0:0:0:0:1 has disconnected for reason CLOSED_BY_REMOTE_PEER
+23:57:51 [INFO] [Geyser-BungeeCord] Totodile20 has disconnected from remote Java server on address 25.40.185.59 because of CLOSED_BY_REMOTE_PEER
+23:57:51 [INFO] Removed Bedrock player who was logged in as DonutBother ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+23:57:51 [INFO] [DonutBother] -> UpstreamBridge has disconnected
+23:57:51 [INFO] [DonutBother] <-> DownstreamBridge <-> [lobby] has disconnected
+00:00:03 [INFO] Closing listener [id: 0xa41c6a50, L:/0:0:0:0:0:0:0:0:25577]
+00:00:03 [INFO] Closing pending connections
+00:00:03 [INFO] Disconnecting 0 connections
+00:00:04 [INFO] Saving reconnect locations
+00:00:04 [INFO] Disabling plugins
+00:00:04 [INFO] [Geyser-BungeeCord] Shutting down Geyser.
+00:00:04 [INFO] [Geyser-BungeeCord] Geyser shutdown successfully.
+00:00:04 [INFO] Closing IO threads
+00:00:06 [INFO] Thank you and goodbye
+00:00:52 [INFO] Using standard Java JCE cipher.
+00:00:52 [INFO] Using standard Java compressor.
+00:00:52 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+00:00:52 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:00:52 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+00:00:52 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:52 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:00:52 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:52 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:00:53 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+00:00:53 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+00:00:53 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:00:53 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:53 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:53 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:53 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:00:53 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:00:53 [WARNING] Forced host server pvp is not defined
+00:00:53 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+00:00:53 [INFO] [Geyser-BungeeCord] ******************************************
+00:00:53 [INFO] [Geyser-BungeeCord] 
+00:00:53 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+00:00:53 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+00:00:53 [INFO] [Geyser-BungeeCord] 
+00:00:53 [INFO] [Geyser-BungeeCord] ******************************************
+00:01:05 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+00:01:05 [INFO] [Geyser-BungeeCord] Done (12.185s)! Run /geyser help for help!
+00:01:05 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+00:01:05 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:05 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:05 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+00:01:05 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:05 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:05 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:05 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:01:06 [INFO] Listening on /0.0.0.0:25577
+00:03:04 [INFO] Closing listener [id: 0xeb240e29, L:/0:0:0:0:0:0:0:0:25577]
+00:03:04 [INFO] Closing pending connections
+00:03:04 [INFO] Disconnecting 0 connections
+00:03:05 [INFO] Saving reconnect locations
+00:03:05 [INFO] Disabling plugins
+00:03:05 [INFO] [Geyser-BungeeCord] Shutting down Geyser.
+00:03:05 [INFO] [Geyser-BungeeCord] Geyser shutdown successfully.
+00:03:05 [INFO] Closing IO threads
+00:03:07 [INFO] Thank you and goodbye
+00:03:13 [INFO] Using standard Java JCE cipher.
+00:03:13 [INFO] Using standard Java compressor.
+00:03:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:9c078b7:1539
+00:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:03:13 [INFO] Loaded plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+00:03:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [WARNING] Error enabling plugin dynmap
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:03:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [WARNING] Error enabling plugin tpa
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:03:13 [INFO] [floodgate-bungee] Loading Floodgate linked player database...
+00:03:13 [INFO] Loaded plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+00:03:13 [WARNING] Error enabling plugin SinglePlayerSleep
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:03:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [WARNING] Error enabling plugin CCTV
+java.lang.NoClassDefFoundError: org.bukkit.plugin.java.JavaPlugin
+	at java.lang.ClassLoader.defineClassImpl(Native Method)
+	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:398)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:359)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:682)
+	at java.net.URLClassLoader.access$400(URLClassLoader.java:89)
+	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1086)
+	at java.security.AccessController.doPrivileged(AccessController.java:770)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:589)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:953)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:898)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:44)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:327)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:235)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:271)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:63)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:37)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:881)
+	... 19 more
+00:03:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:13 [WARNING] Forced host server pvp is not defined
+00:03:14 [INFO] [Geyser-BungeeCord] Auto-loaded Floodgate key
+00:03:14 [INFO] [Geyser-BungeeCord] ******************************************
+00:03:14 [INFO] [Geyser-BungeeCord] 
+00:03:14 [WARNING] [Geyser-BungeeCord] en_AU is not a valid Bedrock language.
+00:03:14 [INFO] [Geyser-BungeeCord] Loading Geyser version 1.2.0-SNAPSHOT (git-master-24fd7da)
+00:03:14 [INFO] [Geyser-BungeeCord] 
+00:03:14 [INFO] [Geyser-BungeeCord] ******************************************
+00:03:36 [INFO] [Geyser-BungeeCord] Started Geyser on 0.0.0.0:19132
+00:03:56 [INFO] [Geyser-BungeeCord] Done (42.731s)! Run /geyser help for help!
+00:03:56 [INFO] Enabled plugin Geyser-BungeeCord version 1.2.0-SNAPSHOT by GeyserMC
+00:03:56 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:56 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:56 [INFO] Enabled plugin floodgate-bungee version 1.0-SNAPSHOT by GeyserMC
+00:03:56 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:56 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:56 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:56 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:9c078b7:1539 by SpigotMC
+00:03:57 [INFO] Listening on /0.0.0.0:25565
+00:04:02 [INFO] [/127.0.0.1:56511] <-> InitialHandler has connected
+00:04:03 [INFO] [DonutBother] <-> ServerConnector [lobby] has connected
+00:04:03 [INFO] Netty is not using direct IO buffers.
+00:04:25 [INFO] [DonutBother] -> UpstreamBridge has disconnected
+00:04:25 [INFO] [DonutBother] <-> DownstreamBridge <-> [lobby] has disconnected
+00:04:35 [INFO] [Geyser-BungeeCord] /0:0:0:0:0:0:0:1:53476 tried to connect!
+00:04:36 [INFO] [Geyser-BungeeCord] Player connected with username Totodile20
+00:04:42 [INFO] [Geyser-BungeeCord] Attempting to login using floodgate mode... authentication will be encrypted.
+00:04:42 [INFO] [Geyser-BungeeCord] Loaded Floodgate key!
+00:04:42 [INFO] [Geyser-BungeeCord] Totodile20 (logged in as: Totodile20) has connected to remote java server on address 25.40.185.59
+00:04:42 [INFO] [/25.40.185.59:56603] <-> InitialHandler has connected
+00:04:42 [INFO] [DonutBother] <-> ServerConnector [lobby] has connected
+00:04:43 [INFO] [Geyser-BungeeCord] Spawned player at 2,222.354 68 0.78
+00:04:53 [INFO] [Geyser-BungeeCord] Bedrock user with ip: /0:0:0:0:0:0:0:1 has disconnected for reason CLOSED_BY_REMOTE_PEER
+00:04:53 [INFO] [Geyser-BungeeCord] Totodile20 has disconnected from remote Java server on address 25.40.185.59 because of CLOSED_BY_REMOTE_PEER
+00:04:53 [INFO] Removed Bedrock player who was logged in as DonutBother ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+00:04:53 [INFO] [DonutBother] -> UpstreamBridge has disconnected
+00:04:53 [INFO] [DonutBother] <-> DownstreamBridge <-> [lobby] has disconnected
+00:07:26 [INFO] Closing listener [id: 0xfd46ff14, L:/0:0:0:0:0:0:0:0:25565]
+00:07:26 [INFO] Closing pending connections
+00:07:26 [INFO] Disconnecting 0 connections
+00:07:27 [INFO] Saving reconnect locations
+00:07:27 [INFO] Disabling plugins
+00:07:27 [INFO] [Geyser-BungeeCord] Shutting down Geyser.
+00:07:27 [INFO] [Geyser-BungeeCord] Geyser shutdown successfully.
+00:07:27 [INFO] Closing IO threads
+00:07:29 [INFO] Thank you and goodbye

@@ -1,0 +1,23 @@
+{
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2020-11-29 10:29:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-11-29 10:29:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-11-29 10:18:15 +0000",
+      "minecraft:beach": "2020-11-29 10:20:13 +0000",
+      "minecraft:plains": "2020-11-29 10:21:00 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}

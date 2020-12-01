@@ -1,0 +1,954 @@
+[08:37:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:37:37] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[08:37:38] [Worker-Main-2/INFO]: Loaded 7 recipes
+[08:37:39] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[08:37:39] [Server thread/INFO]: Loading properties
+[08:37:39] [Server thread/INFO]: This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[08:37:39] [Server thread/INFO]: Debug logging is disabled
+[08:37:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:37:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:37:40] [Server thread/INFO]: Default game type: SURVIVAL
+[08:37:40] [Server thread/INFO]: Generating keypair
+[08:37:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:37:40] [Server thread/INFO]: Using epoll channel type
+[08:37:41] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:37:46] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta5-431 does not specify an api-version.
+[08:37:46] [Server thread/WARN]: Legacy plugin tpa v1.0 does not specify an api-version.
+[08:37:46] [Server thread/WARN]: Legacy plugin CCTV v6.6b does not specify an api-version.
+[08:37:46] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta5-431
+[08:37:46] [Server thread/INFO]: [dynmap] version=git-Paper-288 (MC: 1.16.4)
+[08:37:46] [Server thread/INFO]: [dynmap] Mod Support API available
+[08:37:46] [Server thread/INFO]: [tpa] Loading tpa v1.0
+[08:37:46] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.45.2
+[08:37:46] [Server thread/INFO]: [floodgate-bukkit] Loading floodgate-bukkit v1.0-SNAPSHOT
+[08:37:47] [Server thread/INFO]: [floodgate-bukkit] Loading Floodgate linked player database...
+[08:37:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.0-SNAPSHOT
+[08:37:47] [Server thread/INFO]: [CCTV] Loading CCTV v6.6b
+[08:37:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:37:47] [Server thread/INFO]: Preparing level "world"
+[08:37:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:37:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:37:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:37:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:37:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:37:47] [Server thread/INFO]: Max TNT Explosions: 100
+[08:37:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:37:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:37:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:37:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:37:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:37:47] [Server thread/INFO]: View Distance: 10
+[08:37:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:37:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:37:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:37:47] [Server thread/INFO]: Mob Spawn Range: 8
+[08:37:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:37:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:37:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:37:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:37:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:37:47] [Server thread/INFO]: Max TNT Explosions: 100
+[08:37:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:37:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:37:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:37:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:37:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:37:47] [Server thread/INFO]: View Distance: 10
+[08:37:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:37:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:37:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:37:47] [Server thread/INFO]: Mob Spawn Range: 8
+[08:37:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:37:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:37:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:37:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:37:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:37:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:37:47] [Server thread/INFO]: Max TNT Explosions: 100
+[08:37:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:37:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:37:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:37:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:37:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:37:47] [Server thread/INFO]: View Distance: 10
+[08:37:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:37:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:37:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:37:47] [Server thread/INFO]: Mob Spawn Range: 8
+[08:37:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:37:48] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[08:37:48] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:48] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:48] [Server thread/INFO]: Preparing spawn area: 1%
+[08:37:48] [Server thread/INFO]: Time elapsed: 1088 ms
+[08:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:37:49] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[08:37:49] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:49] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:49] [Server thread/INFO]: Preparing spawn area: 100%
+[08:37:49] [Server thread/INFO]: Time elapsed: 1137 ms
+[08:37:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:37:50] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[08:37:50] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:50] [Server thread/INFO]: Time elapsed: 341 ms
+[08:37:50] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta5-431*
+[08:37:50] [Server thread/INFO]: [dynmap] Added 4 custom biome mappings
+[08:37:50] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[08:37:50] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[08:37:50] [Server thread/WARN]: [dynmap] cwebp or dwebp not found, or cwebpPath or dwebpPath is invalid: webp format disabled
+[08:37:50] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[08:37:51] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[08:37:51] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[08:37:51] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:80
+[08:37:51] [Server thread/INFO]: [dynmap] version 3.1-beta5-431 is enabled - core version 3.1-beta5-431
+[08:37:51] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[08:37:51] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[08:37:51] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[08:37:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[08:37:51] [Server thread/INFO]: [dynmap] Enabled
+[08:37:51] [Server thread/INFO]: [tpa] Enabling tpa v1.0*
+[08:37:51] [Server thread/INFO]: [tpa] Successfully enabled version 1.0!
+[08:37:51] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.45.2
+[08:37:51] [Server thread/INFO]: [1m[32m**************************************[0m
+[08:37:51] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m Loading...
+[08:37:51] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/config.yml
+[08:37:51] [Server thread/INFO]: Checking for updates...
+[08:37:52] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/permissions.yml
+[08:37:52] [Server thread/INFO]: [1m[32m**************************************[0m
+[08:37:52] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m is ENABLED
+[08:37:52] [Server thread/INFO]: [1m[32m**************************************[0m
+[08:37:52] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[08:37:52] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[08:37:52] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m jarfilename=/home/efoleylewis/bradsmp/Server/plugins/SinglePlayerSleep-1.13_2.13.45.2.jar
+[08:37:52] [Server thread/INFO]: [floodgate-bukkit] Enabling floodgate-bukkit v1.0-SNAPSHOT
+[08:37:52] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.0-SNAPSHOT
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] 
+[08:37:53] [Server thread/WARN]: [Geyser-Spigot] en_ is not a valid Bedrock language.
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.0-SNAPSHOT (git-master-199778f)
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] 
+[08:37:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:37:53] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[08:37:54] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[08:38:01] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[08:38:01] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[08:38:02] [Server thread/WARN]: [org.geysermc.platform.spigot.shaded.reflections.Reflections] given scan urls are empty. set urls in the configuration
+[08:38:02] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[08:38:02] [Server thread/INFO]: [Geyser-Spigot] Done (9.051s)! Run /geyser help for help!
+[08:38:02] [Server thread/INFO]: [CCTV] Enabling CCTV v6.6b*
+[08:38:02] [Server thread/INFO]: v1_16_R3.
+[08:38:02] [Server thread/INFO]: [CCTV] .-==--+]- CCTV -[+--==-.
+[08:38:02] [Server thread/INFO]: [CCTV] This is the CCTV plugin!
+[08:38:02] [Server thread/INFO]: [CCTV] Authors: Timdecoole123, Streampy
+[08:38:02] [Server thread/INFO]: [CCTV] For updates check our spigot or bukkit page
+[08:38:02] [Server thread/INFO]: [CCTV] Spigot: https://www.spigotmc.org/resources/cctv.60310/
+[08:38:02] [Server thread/INFO]: [CCTV] Bukkit: https://dev.bukkit.org/projects/cctv
+[08:38:02] [Server thread/INFO]: [CCTV] To report bugs go to the spigot or bukkit page and send us a message!
+[08:38:02] [Server thread/INFO]: [CCTV] .-==--+]-      -[+--==-.
+[08:38:02] [Server thread/INFO]: Running delayed init tasks
+[08:38:02] [Server thread/INFO]: Done (22.652s)! For help, type "help"
+[08:38:02] [Server thread/INFO]: Timings Reset
+[08:38:47] [User Authenticator #1/INFO]: UUID of player Areafairy2 is 23c55aa3-b3cf-44de-be38-d5e0e1509c94
+[08:38:47] [Server thread/INFO]: Areafairy2 joined the game
+[08:38:47] [Server thread/INFO]: Areafairy2[/124.180.96.188:53721] logged in with entity id 163 at ([world]2017.7179174017979, 64.0, 396.5771423613756)
+[08:39:03] [Server thread/INFO]: [Server] you suck
+[08:39:21] [Server thread/INFO]: Unknown item 'minecraft:1000000'
+[08:39:21] [Server thread/INFO]: ...Areafairy 1000000 netherite<--[HERE]
+[08:39:23] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[08:43:02] [Craft Scheduler Thread - 4/INFO]: Auto-saved all files!
+[08:48:02] [Craft Scheduler Thread - 5/INFO]: Auto-saved all files!
+[08:53:02] [Craft Scheduler Thread - 6/INFO]: Auto-saved all files!
+[08:57:18] [User Authenticator #2/INFO]: UUID of player DonutBother is ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+[08:57:18] [Server thread/INFO]: DonutBother joined the game
+[08:57:18] [Server thread/INFO]: DonutBother[/101.177.139.142:64173] logged in with entity id 2832 at ([world]1835.1568727145568, 64.0, 463.57550958017214)
+[08:58:02] [Craft Scheduler Thread - 7/INFO]: Auto-saved all files!
+[08:59:54] [Server thread/INFO]: DonutBother issued server command: /gamemode creative
+[08:59:54] [Server thread/INFO]: [DonutBother: Set own game mode to Creative Mode]
+[09:00:08] [Server thread/INFO]: DonutBother issued server command: /cctv camera get
+[09:00:17] [Server thread/INFO]: DonutBother issued server command: /cctv computer get
+[09:00:55] [Async Chat Thread - #0/INFO]: <DonutBother> Areafairy2
+[09:00:57] [Async Chat Thread - #0/INFO]: <DonutBother> exit
+[09:01:22] [Async Chat Thread - #0/INFO]: <DonutBother> exit
+[09:01:40] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera
+[09:01:48] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Spying 693522
+[09:03:02] [Craft Scheduler Thread - 8/INFO]: Auto-saved all files!
+[09:04:13] [Server thread/INFO]: DonutBother issued server command: /gamemode s
+[09:04:14] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[09:04:14] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[09:04:50] [Server thread/INFO]: DonutBother issued server command: /gamemode su
+[09:05:04] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[09:05:04] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[09:07:33] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[09:07:34] [Server thread/INFO]: DonutBother left the game
+[09:08:02] [Craft Scheduler Thread - 9/INFO]: Auto-saved all files!
+[09:13:02] [Craft Scheduler Thread - 10/INFO]: Auto-saved all files!
+[09:18:02] [Craft Scheduler Thread - 11/INFO]: Auto-saved all files!
+[09:23:02] [Craft Scheduler Thread - 12/INFO]: Auto-saved all files!
+[09:28:02] [Craft Scheduler Thread - 13/INFO]: Auto-saved all files!
+[09:33:02] [Craft Scheduler Thread - 14/INFO]: Auto-saved all files!
+[09:38:02] [Craft Scheduler Thread - 15/INFO]: Auto-saved all files!
+[09:43:02] [Craft Scheduler Thread - 16/INFO]: Auto-saved all files!
+[09:44:28] [Server thread/INFO]: [WEB] 58.161.121.88: H
+[09:46:08] [Network Listener - #1/INFO]: [Geyser-Spigot] /58.161.121.88:57372 tried to connect!
+[09:46:09] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username WierdoBrad12345
+[09:46:18] [Network Listener - #1/INFO]: [Geyser-Spigot] Attempting to login using floodgate mode... authentication will be encrypted.
+[09:46:18] [Thread-56/WARN]: [Geyser-Spigot] Loaded class org.geysermc.floodgate.util.EncryptionUtil from floodgate-bukkit v1.0-SNAPSHOT which is not a depend, softdepend or loadbefore of this plugin.
+[09:46:18] [Thread-56/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[09:46:18] [nioEventLoopGroup-2-2/INFO]: [Geyser-Spigot] WierdoBrad12345 (logged in as: WierdoBrad12345) has connected to remote java server on address 10.152.0.2
+[09:46:18] [nioEventLoopGroup-2-2/WARN]: [floodgate-bukkit] Loaded class org.geysermc.floodgate.util.BedrockData from Geyser-Spigot v1.2.0-SNAPSHOT which is not a depend, softdepend or loadbefore of this plugin.
+[09:46:18] [Netty Epoll Server IO #2/INFO]: [floodgate-bukkit] Added BigWierdoBrad123 00000000-0000-0000-0009-01f7ac494c34
+[09:46:18] [Netty Epoll Server IO #2/INFO]: UUID of player ButtockManWierdo is 00000000-0000-0000-0009-01f7ac494c34
+[09:46:18] [nioEventLoopGroup-2-2/INFO]: [Geyser-Spigot] Registering bedrock skin for ButtockManWierdo (00000000-0000-0000-0009-01f7ac494c34)
+[09:46:18] [Server thread/INFO]: ButtockManWierdo joined the game
+[09:46:18] [Server thread/INFO]: ButtockManWierdo[/58.161.121.88:38424] logged in with entity id 9213 at ([world]1632.2689, 65.0, 828.72284)
+[09:46:19] [Thread-57/INFO]: [Geyser-Spigot] Spawned player at 1,632.269 65 828.723
+[09:48:02] [Craft Scheduler Thread - 17/INFO]: Auto-saved all files!
+[09:50:14] [User Authenticator #3/INFO]: UUID of player EnigmaHound2020 is bc81c140-9b97-4885-b697-afaf6f8dc377
+[09:50:15] [Server thread/INFO]: EnigmaHound2020 joined the game
+[09:50:15] [Server thread/INFO]: EnigmaHound2020[/203.220.152.38:52210] logged in with entity id 10435 at ([world]1930.699999988079, 68.0, 927.3000000119209)
+[09:50:56] [User Authenticator #3/INFO]: UUID of player DonutBother is ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+[09:50:56] [Server thread/INFO]: DonutBother joined the game
+[09:50:56] [Server thread/INFO]: DonutBother[/101.177.139.142:64623] logged in with entity id 10860 at ([world]1908.4535133303573, 83.0, 501.30646308728615)
+[09:51:08] [Async Chat Thread - #1/INFO]: <DonutBother> What is this?
+[09:51:12] [Async Chat Thread - #1/INFO]: <DonutBother> Communism?
+[09:51:22] [Async Chat Thread - #1/INFO]: <ButtockManWierdo> wthan the map wont update properly
+[09:52:26] [Async Chat Thread - #2/INFO]: <DonutBother> What do you mean by that, Brad?
+[09:52:39] [Async Chat Thread - #2/INFO]: <ButtockManWierdo> the online map has los of black spots
+[09:52:55] [Async Chat Thread - #2/INFO]: <DonutBother> K, I will start the render, then.
+[09:52:58] [Server thread/INFO]: DonutBother issued server command: /dynmap rendeer
+[09:52:59] [Async Chat Thread - #2/INFO]: <ButtockManWierdo> ok
+[09:53:02] [Craft Scheduler Thread - 18/INFO]: Auto-saved all files!
+[09:53:03] [Server thread/INFO]: DonutBother issued server command: /dynmap fullrender
+[09:53:12] [Server thread/INFO]: DonutBother issued server command: /dynmap quiet
+[09:53:47] [Async Chat Thread - #2/INFO]: <DonutBother> Started, will take some time to do
+[09:54:43] [Server thread/INFO]: [WEB] ButtockManWierdo: Awesome thanks
+[09:54:44] [Network Listener - #3/INFO]: [Geyser-Spigot] Bedrock user with ip: /58.161.121.88 has disconnected for reason TIMED_OUT
+[09:54:44] [nioEventLoopGroup-2-2/INFO]: [Geyser-Spigot] WierdoBrad12345 has disconnected from remote Java server on address 10.152.0.2 because of TIMED_OUT
+[09:54:44] [Server thread/INFO]: ButtockManWierdo lost connection: Disconnected
+[09:54:44] [Server thread/INFO]: ButtockManWierdo left the game
+[09:58:02] [Craft Scheduler Thread - 19/INFO]: Auto-saved all files!
+[09:58:59] [Server thread/WARN]: EnigmaHound2020 was kicked for floating too long!
+[09:58:59] [Server thread/INFO]: EnigmaHound2020 lost connection: Flying is not enabled on this server
+[09:58:59] [Server thread/INFO]: EnigmaHound2020 left the game
+[09:59:01] [User Authenticator #4/INFO]: UUID of player EnigmaHound2020 is bc81c140-9b97-4885-b697-afaf6f8dc377
+[09:59:01] [Server thread/INFO]: EnigmaHound2020 joined the game
+[09:59:01] [Server thread/INFO]: EnigmaHound2020[/203.220.152.38:52256] logged in with entity id 14301 at ([world]2050.276004566909, 68.85818318148316, 749.0836699891958)
+[09:59:18] [User Authenticator #4/INFO]: UUID of player Batman_1212 is ed1bb8c1-2e8c-4614-a218-6a6579ac33fa
+[09:59:18] [Server thread/INFO]: Batman_1212 joined the game
+[09:59:18] [Server thread/INFO]: Batman_1212[/124.187.27.212:59823] logged in with entity id 14449 at ([world]1990.2913532153573, 84.0, 458.8079697400087)
+[10:00:03] [Server thread/WARN]: Batman_1212 was kicked due to keepalive timeout!
+[10:00:03] [Server thread/INFO]: Batman_1212 lost connection: Timed out
+[10:00:03] [Server thread/INFO]: Batman_1212 left the game
+[10:00:40] [User Authenticator #5/INFO]: UUID of player Batman_1212 is ed1bb8c1-2e8c-4614-a218-6a6579ac33fa
+[10:00:40] [Server thread/INFO]: Batman_1212 joined the game
+[10:00:40] [Server thread/INFO]: Batman_1212[/124.187.27.212:59830] logged in with entity id 15609 at ([world]1991.0641036642392, 85.0, 454.6044863178254)
+[10:01:25] [Server thread/WARN]: Batman_1212 was kicked due to keepalive timeout!
+[10:01:25] [Server thread/INFO]: Batman_1212 lost connection: Timed out
+[10:01:25] [Server thread/INFO]: Batman_1212 left the game
+[10:02:02] [User Authenticator #6/INFO]: UUID of player Batman_1212 is ed1bb8c1-2e8c-4614-a218-6a6579ac33fa
+[10:02:02] [Server thread/INFO]: Batman_1212 joined the game
+[10:02:02] [Server thread/INFO]: Batman_1212[/124.187.27.212:59837] logged in with entity id 16732 at ([world]1994.3077884897957, 81.0, 478.4649798612456)
+[10:02:33] [Server thread/INFO]: Batman_1212 lost connection: Timed out
+[10:02:33] [Server thread/INFO]: Batman_1212 left the game
+[10:02:53] [User Authenticator #6/INFO]: UUID of player Batman_1212 is ed1bb8c1-2e8c-4614-a218-6a6579ac33fa
+[10:02:53] [Server thread/INFO]: Batman_1212 joined the game
+[10:02:53] [Server thread/INFO]: Batman_1212[/124.187.27.212:59847] logged in with entity id 17269 at ([world]1994.3077884897957, 81.0, 478.4649798612456)
+[10:03:02] [Craft Scheduler Thread - 20/INFO]: Auto-saved all files!
+[10:03:23] [Server thread/INFO]: Batman_1212 lost connection: Disconnected
+[10:03:23] [Server thread/INFO]: Batman_1212 left the game
+[10:05:58] [Server thread/INFO]: DonutBother issued server command: /w Areafairy2 Are you doing the thing?
+[10:06:50] [Server thread/INFO]: [WEB] Batman_1212: test
+[10:06:54] [Async Chat Thread - #3/INFO]: <DonutBother> 'Sup
+[10:07:45] [Server thread/WARN]: Boat (vehicle of EnigmaHound2020) moved wrongly! 0.39068421640604356
+[10:07:45] [Server thread/WARN]: Boat (vehicle of EnigmaHound2020) moved wrongly! 0.34371632306874744
+[10:07:45] [Server thread/WARN]: Boat (vehicle of EnigmaHound2020) moved wrongly! 0.27632811048817985
+[10:08:02] [Craft Scheduler Thread - 21/INFO]: Auto-saved all files!
+[10:08:04] [User Authenticator #7/INFO]: UUID of player Batman_1212 is ed1bb8c1-2e8c-4614-a218-6a6579ac33fa
+[10:08:04] [Server thread/INFO]: Batman_1212 joined the game
+[10:08:04] [Server thread/INFO]: Batman_1212[/124.187.27.212:60364] logged in with entity id 19718 at ([world]1994.3077884897957, 81.0, 478.4649798612456)
+[10:08:37] [Server thread/INFO]: Batman_1212 lost connection: Timed out
+[10:08:37] [Server thread/INFO]: Batman_1212 left the game
+[10:10:37] [Server thread/INFO]: DonutBother issued server command: /tpa Areafairy2
+[10:10:59] [User Authenticator #8/INFO]: UUID of player Areafairy is ebad4741-b238-4fac-8d6d-0f7166c6bce0
+[10:11:00] [Server thread/INFO]: Areafairy joined the game
+[10:11:00] [Server thread/INFO]: Areafairy[/123.243.175.37:40640] logged in with entity id 21031 at ([world]1909.0661120395516, 79.0, 488.08744881088626)
+[10:11:15] [Server thread/INFO]: [WEB] Batman_1212: hello
+[10:13:02] [Craft Scheduler Thread - 22/INFO]: Auto-saved all files!
+[10:13:26] [Server thread/INFO]: Areafairy lost connection: Disconnected
+[10:13:26] [Server thread/INFO]: Areafairy left the game
+[10:14:28] [Server thread/INFO]: DonutBother issued server command: /data get entity Areafairy2 Inventory
+[10:17:21] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[10:17:42] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[10:17:47] [Server thread/INFO]: Areafairy2 issued server command: /spscancel
+[10:18:02] [Craft Scheduler Thread - 23/INFO]: Auto-saved all files!
+[10:21:41] [Server thread/INFO]: Areafairy2 issued server command: /gamemode survival
+[10:21:41] [Server thread/INFO]: [Areafairy2: Set own game mode to Survival Mode]
+[10:22:51] [Async Chat Thread - #4/INFO]: <EnigmaHound2020> ?
+[10:22:58] [Async Chat Thread - #4/INFO]: <Areafairy2> burger!
+[10:23:02] [Craft Scheduler Thread - 24/INFO]: Auto-saved all files!
+[10:23:03] [Async Chat Thread - #4/INFO]: <EnigmaHound2020> sure
+[10:23:20] [Async Chat Thread - #4/INFO]: <EnigmaHound2020> wot u doing there
+[10:23:26] [Async Chat Thread - #4/INFO]: <Areafairy2> nothin
+[10:23:34] [Async Chat Thread - #4/INFO]: <EnigmaHound2020> sure sure
+[10:24:46] [Server thread/INFO]: Areafairy2 fell from a high place
+[10:24:49] [Async Chat Thread - #5/INFO]: <DonutBother> f
+[10:26:25] [Server thread/INFO]: Areafairy2 lost connection: Disconnected
+[10:26:25] [Server thread/INFO]: Areafairy2 left the game
+[10:28:02] [Craft Scheduler Thread - 25/INFO]: Auto-saved all files!
+[10:33:02] [Craft Scheduler Thread - 26/INFO]: Auto-saved all files!
+[10:34:56] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[10:38:02] [Craft Scheduler Thread - 27/INFO]: Auto-saved all files!
+[10:41:20] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[10:43:02] [Craft Scheduler Thread - 28/INFO]: Auto-saved all files!
+[10:48:02] [Craft Scheduler Thread - 29/INFO]: Auto-saved all files!
+[10:53:02] [Craft Scheduler Thread - 30/INFO]: Auto-saved all files!
+[10:57:48] [Server thread/INFO]: Villager EntityVillager['Nitwit'/44030, uuid='2d349656-b4bc-4c34-bd41-3c8201ff98e8', l='ServerLevel[world]', x=1879.24, y=66.00, z=1189.30, cx=117, cz=74, tl=853524, v=true, d=false] died, message: 'Nitwit was slain by Husk'
+[10:58:02] [Craft Scheduler Thread - 31/INFO]: Auto-saved all files!
+[10:58:04] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[11:03:02] [Craft Scheduler Thread - 32/INFO]: Auto-saved all files!
+[11:06:42] [Server thread/INFO]: Villager EntityVillager['Farmer'/43980, uuid='868ad3e7-0499-4654-9342-59310d17e2c9', l='ServerLevel[world]', x=1871.97, y=64.00, z=1191.51, cx=116, cz=74, tl=855200, v=true, d=false] died, message: 'Farmer was slain by Husk'
+[11:08:02] [Craft Scheduler Thread - 33/INFO]: Auto-saved all files!
+[11:09:04] [Server thread/WARN]: Boat (vehicle of EnigmaHound2020) moved wrongly! 0.6094377216910111
+[11:13:02] [Craft Scheduler Thread - 34/INFO]: Auto-saved all files!
+[11:16:24] [Server thread/INFO]: DonutBother issued server command: /spscancel
+[11:16:51] [Server thread/INFO]: EnigmaHound2020 lost connection: Disconnected
+[11:16:51] [Server thread/INFO]: EnigmaHound2020 left the game
+[11:18:02] [Craft Scheduler Thread - 35/INFO]: Auto-saved all files!
+[11:18:35] [User Authenticator #9/INFO]: UUID of player EnigmaHound2020 is bc81c140-9b97-4885-b697-afaf6f8dc377
+[11:18:35] [Server thread/INFO]: EnigmaHound2020 joined the game
+[11:18:35] [Server thread/INFO]: EnigmaHound2020[/203.220.152.38:52714] logged in with entity id 52928 at ([world]2038.9745399433657, 66.0, 1146.2798581439672)
+[11:19:23] [Server thread/INFO]: EnigmaHound2020 lost connection: Disconnected
+[11:19:23] [Server thread/INFO]: EnigmaHound2020 left the game
+[11:20:24] [User Authenticator #10/INFO]: UUID of player Borberru is 3383407a-8c5f-43ab-bbb3-bf02a9d7c9f8
+[11:20:24] [Server thread/INFO]: Borberru joined the game
+[11:20:24] [Server thread/INFO]: Borberru[/115.64.16.127:56539] logged in with entity id 53367 at ([world]2012.699999988079, 71.0, 506.86048855509455)
+[11:20:30] [Async Chat Thread - #6/INFO]: <DonutBother> 'sup
+[11:20:36] [Async Chat Thread - #6/INFO]: <Borberru> Helloo
+[11:22:30] [Async Chat Thread - #7/INFO]: <Borberru> Where'd the lava go from the penis guy statue
+[11:22:36] [Async Chat Thread - #7/INFO]: <DonutBother> I borrowed it
+[11:23:02] [Craft Scheduler Thread - 36/INFO]: Auto-saved all files!
+[11:27:50] [Async Chat Thread - #8/INFO]: <Borberru> What's with this pig in a random ditch
+[11:28:02] [Craft Scheduler Thread - 37/INFO]: Auto-saved all files!
+[11:28:02] [Async Chat Thread - #8/INFO]: <DonutBother> Idk
+[11:28:06] [Async Chat Thread - #8/INFO]: <Borberru> can I kill it
+[11:28:09] [Async Chat Thread - #8/INFO]: <DonutBother> Sure
+[11:28:17] [Async Chat Thread - #8/INFO]: <Borberru> He/she deserves it
+[11:28:27] [Async Chat Thread - #8/INFO]: <DonutBother> K
+[11:33:02] [Craft Scheduler Thread - 38/INFO]: Auto-saved all files!
+[11:38:02] [Craft Scheduler Thread - 39/INFO]: Auto-saved all files!
+[11:39:02] [Server thread/INFO]: Borberru was blown up by Creeper
+[11:39:05] [Async Chat Thread - #9/INFO]: <DonutBother> f
+[11:39:07] [Server thread/INFO]: Borberru issued server command: /f
+[11:39:09] [Async Chat Thread - #9/INFO]: <Borberru> f
+[11:39:55] [Server thread/INFO]: [WEB] Areafairy2: yo
+[11:39:58] [Async Chat Thread - #9/INFO]: <DonutBother> 'sup
+[11:40:02] [Server thread/INFO]: [WEB] Areafairy2: woah
+[11:40:05] [Async Chat Thread - #9/INFO]: <DonutBother> Tom, I have started on the project
+[11:40:16] [Server thread/INFO]: [WEB] Areafairy2: i am on dynmap
+[11:40:20] [Async Chat Thread - #9/INFO]: <DonutBother> Yep
+[11:40:28] [Server thread/INFO]: [WEB] Areafairy2: thats cool
+[11:40:32] [Async Chat Thread - #9/INFO]: <DonutBother> Ik
+[11:40:39] [Server thread/INFO]: [WEB] Areafairy2: yes, the project
+[11:40:50] [Async Chat Thread - #9/INFO]: <DonutBother> There is a door
+[11:40:55] [Async Chat Thread - #9/INFO]: <DonutBother> And a water elevator
+[11:41:14] [Server thread/INFO]: [WEB] Areafairy2: is it secretive 
+[11:41:18] [Async Chat Thread - #9/INFO]: <DonutBother> Quite
+[11:41:23] [Server thread/INFO]: [WEB] Areafairy2: good
+[11:41:34] [Server thread/INFO]: [WEB] Areafairy2: Henry you didn't see this
+[11:41:43] [Async Chat Thread - #9/INFO]: <DonutBother> It will be quite unlucky that anyone will stumble upon it
+[11:41:46] [Async Chat Thread - #9/INFO]: <Borberru> What
+[11:41:55] [Async Chat Thread - #9/INFO]: <DonutBother> unlikely*
+[11:42:07] [User Authenticator #11/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[11:42:07] [Server thread/INFO]: Morgymop joined the game
+[11:42:07] [Server thread/INFO]: Morgymop[/1.132.104.19:38465] logged in with entity id 61297 at ([world]1656.365110535974, 69.0, 937.6226419766975)
+[11:42:13] [Async Chat Thread - #9/INFO]: <DonutBother> Morgan?!
+[11:42:19] [Async Chat Thread - #9/INFO]: <Morgymop> who's borberru
+[11:42:30] [Async Chat Thread - #9/INFO]: <DonutBother> A person called Henry
+[11:42:43] [Async Chat Thread - #9/INFO]: <Morgymop> ooohhhh the guy who made the dirt towers
+[11:42:48] [Async Chat Thread - #9/INFO]: <Borberru> yes
+[11:42:48] [Async Chat Thread - #9/INFO]: <DonutBother> Yep
+[11:42:50] [Server thread/INFO]: [WEB] Areafairy2: yes 
+[11:43:02] [Async Chat Thread - #9/INFO]: <Morgymop> where the fuck are you tom
+[11:43:02] [Craft Scheduler Thread - 40/INFO]: Auto-saved all files!
+[11:43:04] [Server thread/INFO]: [WEB] Areafairy2: why do you have no armour henry 
+[11:43:12] [Server thread/INFO]: [WEB] Areafairy2: I am watching morgan'
+[11:43:20] [Async Chat Thread - #9/INFO]: <DonutBother> He is always watching
+[11:43:23] [Server thread/INFO]: [WEB] Areafairy2: I can see you
+[11:43:30] [Async Chat Thread - #9/INFO]: <Morgymop> what am i doin
+[11:48:02] [Craft Scheduler Thread - 41/INFO]: Auto-saved all files!
+[11:48:29] [Server thread/INFO]: Borberru lost connection: Disconnected
+[11:48:29] [Server thread/INFO]: Borberru left the game
+[11:52:01] [Async Chat Thread - #10/INFO]: <Morgymop> stop
+[11:52:39] [Server thread/INFO]: [Server] I wouldn't stand there morgan
+[11:52:51] [Async Chat Thread - #10/INFO]: <Morgymop> what
+[11:52:52] [Async Chat Thread - #10/INFO]: <DonutBother> The Server is right, Morgan
+[11:52:59] [Async Chat Thread - #10/INFO]: <Morgymop> why
+[11:53:02] [Craft Scheduler Thread - 42/INFO]: Auto-saved all files!
+[11:53:33] [Async Chat Thread - #10/INFO]: <Morgymop> server who are you
+[11:54:47] [Async Chat Thread - #11/INFO]: <DonutBother> That's The Server,
+[11:54:52] [Async Chat Thread - #11/INFO]: <DonutBother> don't question it.
+[11:54:59] [Async Chat Thread - #11/INFO]: <Morgymop> fuck you server
+[11:57:10] [Async Chat Thread - #12/INFO]: <Morgymop> hello
+[11:57:15] [Server thread/INFO]: DonutBother issued server command: /tp Morgymop ~ 65 ~
+[11:57:15] [Server thread/INFO]: [DonutBother: Teleported Morgymop to 1969.699999988079, 65.0, 442.57386615588496]
+[11:58:02] [Craft Scheduler Thread - 43/INFO]: Auto-saved all files!
+[12:01:00] [Server thread/INFO]: DonutBother issued server command: /tp ~ 75 ~
+[12:01:00] [Server thread/INFO]: [DonutBother: Teleported DonutBother to 1969.300000011921, 75.0, 442.30000001192093]
+[12:01:07] [Server thread/INFO]: DonutBother issued server command: /tp ~ 75 ~
+[12:01:07] [Server thread/INFO]: [DonutBother: Teleported DonutBother to 1969.3362344995771, 75.0, 442.34841617347104]
+[12:01:27] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[12:01:27] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[12:01:51] [Server thread/INFO]: [Server] Fuck off morgan
+[12:02:00] [Async Chat Thread - #13/INFO]: <Morgymop> what?
+[12:02:02] [Server thread/INFO]: [Server] I am the server
+[12:02:17] [Server thread/WARN]: DonutBother moved too quickly! -12.864946212033146,-19.0,-8.735909609561872
+[12:02:27] [Server thread/INFO]: [Server] Stop moving so quickly
+[12:02:33] [Async Chat Thread - #13/INFO]: <Morgymop> no stop
+[12:02:38] [Async Chat Thread - #13/INFO]: <Morgymop> please dont kill ne
+[12:02:39] [Async Chat Thread - #13/INFO]: <Morgymop> me
+[12:02:43] [Async Chat Thread - #13/INFO]: <Morgymop> im sorry
+[12:03:02] [Craft Scheduler Thread - 44/INFO]: Auto-saved all files!
+[12:04:56] [Server thread/WARN]: DonutBother moved too quickly! -65.31952373347531,-5.309529702935237,3.4712814356290664
+[12:07:10] [Server thread/INFO]: DonutBother issued server command: /gamemode creative
+[12:07:10] [Server thread/INFO]: [DonutBother: Set own game mode to Creative Mode]
+[12:07:54] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[12:07:54] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[12:08:02] [Craft Scheduler Thread - 45/INFO]: Auto-saved all files!
+[12:10:26] [Server thread/INFO]: [WEB] Areafairy2: joe
+[12:10:29] [Async Chat Thread - #14/INFO]: <Morgymop> mama
+[12:10:32] [Async Chat Thread - #14/INFO]: <DonutBother> Joe mama
+[12:11:28] [Async Chat Thread - #14/INFO]: <DonutBother> How's using hax on the server? I personally haven't bothered yet because Tom's been giving me so much stuff
+[12:11:52] [Server thread/INFO]: DonutBother issued server command: /data get entity Morgymop Inventory
+[12:11:57] [Server thread/WARN]: Morgymop was kicked for floating too long!
+[12:11:57] [Server thread/INFO]: Morgymop lost connection: Flying is not enabled on this server
+[12:11:57] [Server thread/INFO]: Morgymop left the game
+[12:12:01] [User Authenticator #12/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:12:01] [Server thread/INFO]: Morgymop joined the game
+[12:12:01] [Server thread/INFO]: Morgymop[/1.132.104.19:63483] logged in with entity id 69618 at ([world]1676.2641245958098, 68.58410001635552, 932.3098312119057)
+[12:12:05] [Server thread/INFO]: DonutBother issued server command: /data get entity EnderItems
+[12:12:12] [Server thread/INFO]: DonutBother issued server command: /data get entity Morgymop EnderItems
+[12:12:59] [Async Chat Thread - #15/INFO]: <DonutBother> How's using hax on the server? I personally haven't bothered yet because Tom's been giving me so much stuff
+[12:13:02] [Craft Scheduler Thread - 46/INFO]: Auto-saved all files!
+[12:13:07] [Async Chat Thread - #15/INFO]: <Morgymop> you talking to me?
+[12:13:12] [Async Chat Thread - #15/INFO]: <DonutBother> Yeah
+[12:13:22] [Async Chat Thread - #15/INFO]: <Morgymop> wait we can hack?
+[12:13:27] [Server thread/INFO]: Morgymop issued server command: /geyser
+[12:13:34] [Async Chat Thread - #15/INFO]: <DonutBother> Yeah
+[12:13:40] [Async Chat Thread - #15/INFO]: <Morgymop> dont tell me how
+[12:13:42] [Async Chat Thread - #15/INFO]: <Morgymop> please
+[12:14:35] [Async Chat Thread - #15/INFO]: <DonutBother> No, I'm kidding. That was a test
+[12:14:44] [Async Chat Thread - #15/INFO]: <Morgymop> did i pass?
+[12:15:16] [Async Chat Thread - #15/INFO]: <DonutBother> I think so
+[12:15:24] [Async Chat Thread - #15/INFO]: <DonutBother> I've found some especially suspect tunnels near your base
+[12:15:34] [Async Chat Thread - #15/INFO]: <DonutBother> Why'd you find the tunnel I'd dug?
+[12:15:37] [Async Chat Thread - #15/INFO]: <Morgymop> wait what
+[12:15:54] [Async Chat Thread - #15/INFO]: <Morgymop> oh were you the one pissing me off in my hobbit hole
+[12:16:12] [Async Chat Thread - #15/INFO]: <DonutBother> No, the tunnel I'd dug back near Tom's house
+[12:16:23] [Async Chat Thread - #15/INFO]: <Morgymop> oh i saw you use a secret
+[12:16:31] [Async Chat Thread - #15/INFO]: <Morgymop> and im like i wanna see where that goes
+[12:16:35] [Async Chat Thread - #15/INFO]: <DonutBother> Oh, you did see me use the button?
+[12:16:36] [Async Chat Thread - #15/INFO]: <DonutBother> Damn
+[12:16:41] [Async Chat Thread - #15/INFO]: <Morgymop> does he know about it
+[12:16:48] [Async Chat Thread - #15/INFO]: <DonutBother> Uh. Not sure how good you are at keeping secrets
+[12:16:57] [Async Chat Thread - #15/INFO]: <Morgymop> depends
+[12:17:01] [Async Chat Thread - #15/INFO]: <Morgymop> whats in it for me
+[12:17:14] [Async Chat Thread - #15/INFO]: <DonutBother> You can't tell Tom, for one. Two, you join a secret intelligence organisation run by me
+[12:17:21] [Async Chat Thread - #15/INFO]: <Morgymop> hmmmmmmmm
+[12:17:27] [Async Chat Thread - #15/INFO]: <DonutBother> This organisation is all-knowing
+[12:17:28] [Async Chat Thread - #15/INFO]: <Morgymop> whats the benefits to it
+[12:17:57] [Async Chat Thread - #15/INFO]: <DonutBother> Well, it's mostly to spy on BigJJ and Linsen. If you want, I can get you enchant books n stuff, like mending, unbreaking, efficiency, etc.
+[12:18:02] [Craft Scheduler Thread - 47/INFO]: Auto-saved all files!
+[12:18:21] [Async Chat Thread - #15/INFO]: <Morgymop> how about this
+[12:18:27] [Async Chat Thread - #15/INFO]: <Morgymop> im kinda doing my own thing
+[12:18:33] [Async Chat Thread - #15/INFO]: <Morgymop> im making a town where i am
+[12:18:44] [Async Chat Thread - #15/INFO]: <Morgymop> and only friendlies are allowed
+[12:18:56] [Async Chat Thread - #15/INFO]: <Morgymop> ill be allies with you
+[12:19:00] [Async Chat Thread - #15/INFO]: <Morgymop> but secretly
+[12:19:19] [Async Chat Thread - #15/INFO]: <DonutBother> Okay, so you'll tell no one and I can help you out?
+[12:19:27] [Async Chat Thread - #15/INFO]: <Morgymop> sounds like a deal
+[12:19:31] [Async Chat Thread - #15/INFO]: <DonutBother> Alrighty then
+[12:19:38] [Server thread/INFO]: [Server] The server likes this
+[12:19:52] [Async Chat Thread - #15/INFO]: <Morgymop> i like you server :)
+[12:20:21] [Async Chat Thread - #15/INFO]: <Morgymop> hey ethan
+[12:20:25] [Async Chat Thread - #15/INFO]: <DonutBother> Yeah?
+[12:20:34] [Async Chat Thread - #15/INFO]: <Morgymop> do you have any oak logs i really need them
+[12:20:47] [Async Chat Thread - #15/INFO]: <DonutBother> Unfortunately, no. I'll check at pirate ship, though
+[12:20:53] [Async Chat Thread - #15/INFO]: <Morgymop> thanks
+[12:21:02] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[12:21:02] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[12:21:10] [Async Chat Thread - #15/INFO]: <Morgymop> if you could salvage anything from other people's houses that would be appreciated
+[12:21:26] [Async Chat Thread - #15/INFO]: <DonutBother> Do you want planks, too?
+[12:21:35] [Async Chat Thread - #15/INFO]: <Morgymop> um sure why not
+[12:21:45] [Async Chat Thread - #15/INFO]: <DonutBother> I'm on my way
+[12:22:24] [Async Chat Thread - #15/INFO]: <Morgymop> thank yo uso much
+[12:22:28] [Async Chat Thread - #15/INFO]: <Morgymop> u so*
+[12:22:30] [Async Chat Thread - #15/INFO]: <DonutBother> All good
+[12:22:37] [Async Chat Thread - #15/INFO]: <DonutBother> I'm going back to digging
+[12:23:02] [Craft Scheduler Thread - 48/INFO]: Auto-saved all files!
+[12:25:06] [Server thread/INFO]: Morgymop was slain by Enderman
+[12:27:38] [Server thread/INFO]: [Server] Enderman
+[12:27:44] [Async Chat Thread - #16/INFO]: <Morgymop> WHO ME
+[12:27:49] [Async Chat Thread - #16/INFO]: <Morgymop> sorry caps
+[12:27:51] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "Yes, you"
+[12:27:59] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "You have been chosen"
+[12:28:02] [Craft Scheduler Thread - 49/INFO]: Auto-saved all files!
+[12:28:06] [Async Chat Thread - #16/INFO]: <Morgymop> excellent
+[12:28:15] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "Your responsibility is great"
+[12:28:22] [Async Chat Thread - #16/INFO]: <Morgymop> what do i do
+[12:28:27] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "The dangers are greater still"
+[12:28:33] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop
+[12:28:57] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "You must live for a period of time greater than 30 minutes. Only after this, will your task be complete"
+[12:29:09] [Async Chat Thread - #16/INFO]: <Morgymop> do i get a reward?
+[12:29:17] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "Pfft, no"
+[12:29:22] [Async Chat Thread - #16/INFO]: <Morgymop> then i dont care
+[12:29:41] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "You fool. You don't know what you've done"
+[12:29:49] [Async Chat Thread - #16/INFO]: <Morgymop> yeh i do
+[12:29:50] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "10"
+[12:29:51] [Async Chat Thread - #16/INFO]: <Morgymop> nothing
+[12:29:56] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "9"
+[12:30:00] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "8"
+[12:30:04] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "7"
+[12:30:10] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "6"
+[12:30:14] [Async Chat Thread - #16/INFO]: <Morgymop> ughhhhhhhhhhh fine ill do it
+[12:30:16] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "5"
+[12:30:32] [Server thread/INFO]: DonutBother issued server command: /tellraw Morgymop "K, there's a few diamonds in it for you"
+[12:30:39] [Async Chat Thread - #16/INFO]: <Morgymop> excellent
+[12:30:42] [Async Chat Thread - #16/INFO]: <Morgymop> i wont die
+[12:30:49] [Async Chat Thread - #16/INFO]: <Morgymop> ill honor mysterious man
+[12:33:02] [Craft Scheduler Thread - 50/INFO]: Auto-saved all files!
+[12:33:47] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[12:33:47] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[12:34:08] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[12:34:08] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[12:36:13] [Async Chat Thread - #17/INFO]: <Morgymop> server you there?
+[12:36:24] [Server thread/INFO]: [Server] What
+[12:36:25] [Server thread/INFO]: Morgymop was shot by Skeleton
+[12:36:35] [Async Chat Thread - #17/INFO]: <Morgymop> can you stop it raining
+[12:36:38] [Server thread/INFO]: [Server] YOU FAILED THE CHALLENGE OH GOD
+[12:36:39] [Server thread/INFO]: DonutBother issued server command: /ban Morgymop 1 minute ban for failure to complete ultimate task
+[12:36:39] [Server thread/INFO]: [DonutBother: Banned Morgymop: 1 minute ban for failure to complete ultimate task]
+[12:36:39] [Server thread/INFO]: Morgymop lost connection: You are banned from this server
+[12:36:39] [Server thread/INFO]: Morgymop left the game
+[12:36:43] [User Authenticator #13/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:36:43] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5c153707[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@38b87376]},legacy=false] (/1.132.104.19:59928): You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:36:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@5c153707[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@38b87376]},legacy=false] (/1.132.104.19:59928) lost connection: You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:36:48] [Async Chat Thread - #17/INFO]: <DonutBother> Thankyou
+[12:36:54] [Async Chat Thread - #17/INFO]: <DonutBother> That was fucking fantastic
+[12:36:54] [Server thread/INFO]: [Server] ahahah
+[12:37:05] [Async Chat Thread - #17/INFO]: <DonutBother> The drama
+[12:37:09] [Async Chat Thread - #17/INFO]: <DonutBother> Just wonderful
+[12:37:13] [Server thread/INFO]: [Server] indeed indeed
+[12:37:14] [User Authenticator #13/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:37:14] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4637a392[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@10ea7cb1]},legacy=false] (/1.132.104.19:16439): You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:37:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@4637a392[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@10ea7cb1]},legacy=false] (/1.132.104.19:16439) lost connection: You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:37:21] [Server thread/INFO]: [Server] he's trying to load in
+[12:37:33] [Async Chat Thread - #17/INFO]: <DonutBother> You could hear the fear in your voice, the panic
+[12:37:40] [Server thread/INFO]: [Server] doesn't he know how long a minute is
+[12:37:41] [User Authenticator #13/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:37:42] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@47de05cd[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@74a0f06b]},legacy=false] (/1.132.104.19:45641): You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:37:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@47de05cd[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@74a0f06b]},legacy=false] (/1.132.104.19:45641) lost connection: You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:37:46] [Async Chat Thread - #17/INFO]: <DonutBother> dunno
+[12:37:49] [Async Chat Thread - #17/INFO]: <DonutBother> But it is up soon
+[12:37:49] [Server thread/INFO]: [Server] jeez he keeps tryin
+[12:37:58] [User Authenticator #13/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:37:58] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@13479438[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@394fc243]},legacy=false] (/1.132.104.19:34069): You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:37:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@13479438[id=0a71a81d-0d37-46c9-8ce5-31b752382ba3,name=Morgymop,properties={textures=[com.mojang.authlib.properties.Property@394fc243]},legacy=false] (/1.132.104.19:34069) lost connection: You are banned from this server.
+Reason: 1 minute ban for failure to complete ultimate task
+[12:38:02] [Craft Scheduler Thread - 51/INFO]: Auto-saved all files!
+[12:38:14] [Server thread/INFO]: DonutBother issued server command: /pardon Morgymop
+[12:38:14] [Server thread/INFO]: [DonutBother: Unbanned Morgymop]
+[12:38:45] [User Authenticator #13/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[12:38:45] [Server thread/INFO]: Morgymop joined the game
+[12:38:45] [Server thread/INFO]: Morgymop[/1.132.104.19:5093] logged in with entity id 75927 at ([world]1657.2811275381273, 69.0, 936.6475205732069)
+[12:38:51] [Server thread/INFO]: [Server] You failed me..
+[12:39:10] [Async Chat Thread - #18/INFO]: <Morgymop> im sorry
+[12:40:12] [Async Chat Thread - #19/INFO]: <DonutBother> How am I going in terms of Linsen's base?
+[12:40:50] [Async Chat Thread - #19/INFO]: <DonutBother> Also, let Laura know to keep my pickaxe. I made a newer, better one
+[12:41:03] [Server thread/INFO]: Morgymop was slain by Zombie
+[12:41:14] [Async Chat Thread - #19/INFO]: <Morgymop> THERE WAS A ARMY OF ZOMBIES
+[12:41:21] [Async Chat Thread - #19/INFO]: <DonutBother> Yeah
+[12:41:47] [Server thread/INFO]: [Server] A little more left
+[12:41:49] [Async Chat Thread - #19/INFO]: <DonutBother> At least there is no ultimate responsibility this time
+[12:42:17] [Async Chat Thread - #19/INFO]: <DonutBother> Pfft, I'm almost halfway there
+[12:42:35] [Server thread/INFO]: [Server] 1903, -69
+[12:42:49] [Async Chat Thread - #19/INFO]: <DonutBother> 300 blocks out, 10 stacks of cobble to mine
+[12:43:02] [Craft Scheduler Thread - 52/INFO]: Auto-saved all files!
+[12:48:02] [Craft Scheduler Thread - 53/INFO]: Auto-saved all files!
+[12:49:20] [Server thread/INFO]: Invalid chat component: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+[12:49:20] [Server thread/INFO]: ...nutBother Good mining<--[HERE]
+[12:49:33] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:49:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:49:54] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:53:02] [Craft Scheduler Thread - 54/INFO]: Auto-saved all files!
+[12:55:54] [Server thread/INFO]: DonutBother issued server command: /gamemode creative
+[12:55:54] [Server thread/INFO]: [DonutBother: Set own game mode to Creative Mode]
+[12:56:01] [Async Chat Thread - #20/INFO]: <DonutBother> Just testing
+[12:56:12] [Server thread/INFO]: DonutBother issued server command: /cctv camera get
+[12:56:34] [Server thread/INFO]: [Server] That is allowed
+[12:56:49] [Server thread/INFO]: DonutBother issued server command: /cctv computer get
+[12:57:21] [Server thread/INFO]: DonutBother issued server command: /cctv group create Test
+[12:57:32] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Test 137587
+[12:58:02] [Craft Scheduler Thread - 55/INFO]: Auto-saved all files!
+[12:58:28] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Test 598787
+[12:59:17] [Server thread/INFO]: DonutBother issued server command: /setblock ~ ~ ~ stone
+[12:59:17] [Server thread/INFO]: [DonutBother: Changed the block at 1845, 82, -45]
+[12:59:25] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Test 578265
+[12:59:40] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[12:59:40] [Server thread/INFO]: DonutBother left the game
+[12:59:43] [User Authenticator #14/INFO]: UUID of player DonutBother is ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+[12:59:43] [Server thread/INFO]: DonutBother joined the game
+[12:59:44] [Server thread/INFO]: DonutBother[/101.177.139.142:51266] logged in with entity id 84264 at ([world]1879.782583614927, 64.0, -65.53329811764968)
+[13:00:27] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Test 33697
+[13:01:40] [Server thread/INFO]: DonutBother issued server command: /cctv group addcamera Test 731311
+[13:03:02] [Craft Scheduler Thread - 56/INFO]: Auto-saved all files!
+[13:08:02] [Craft Scheduler Thread - 57/INFO]: Auto-saved all files!
+[13:08:13] [Async Chat Thread - #21/INFO]: <Morgymop> Okay guys
+[13:08:16] [Async Chat Thread - #21/INFO]: <Morgymop> im going to be
+[13:08:17] [Async Chat Thread - #21/INFO]: <Morgymop> bed
+[13:08:27] [Async Chat Thread - #21/INFO]: <Morgymop> goodnight y'all
+[13:08:36] [Server thread/INFO]: Morgymop lost connection: Disconnected
+[13:08:36] [Server thread/INFO]: Morgymop left the game
+[13:13:02] [Craft Scheduler Thread - 58/INFO]: Auto-saved all files!
+[13:18:02] [Craft Scheduler Thread - 59/INFO]: Auto-saved all files!
+[13:20:04] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[13:20:04] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[13:23:02] [Craft Scheduler Thread - 60/INFO]: Auto-saved all files!
+[13:28:02] [Craft Scheduler Thread - 61/INFO]: Auto-saved all files!
+[13:29:09] [Server thread/INFO]: DonutBother was shot by Skeleton
+[13:29:33] [Server thread/INFO]: DonutBother issued server command: /gamemode spectator
+[13:29:33] [Server thread/INFO]: [DonutBother: Set own game mode to Spectator Mode]
+[13:30:04] [Server thread/INFO]: DonutBother issued server command: /gamemode survival
+[13:30:04] [Server thread/INFO]: [DonutBother: Set own game mode to Survival Mode]
+[13:33:02] [Craft Scheduler Thread - 62/INFO]: Auto-saved all files!
+[13:38:02] [Craft Scheduler Thread - 63/INFO]: Auto-saved all files!
+[13:41:02] [Server thread/INFO]: DonutBother issued server command: /replaceitem entity @s armor.head minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:15,Pattern:"bri"},{Color:15,Pattern:"gra"},{Color:14,Pattern:"mr"},{Color:14,Pattern:"bs"},{Color:15,Pattern:"mc"},{Color:15,Pattern:"cbo"}]}}
+[13:41:02] [Server thread/INFO]: [DonutBother: Replaced a slot on DonutBother with [White Banner]]
+[13:43:02] [Craft Scheduler Thread - 64/INFO]: Auto-saved all files!
+[13:48:02] [Craft Scheduler Thread - 65/INFO]: Auto-saved all files!
+[13:49:27] [Server thread/INFO]: [WEB] Areafairy2: my man is in da barn
+[13:49:39] [Async Chat Thread - #22/INFO]: <DonutBother> Shearing the sheep (and breeding them, too)
+[13:49:43] [Server thread/INFO]: [WEB] Areafairy2: there is wheat in a barrel at the front if you wanna breed them 
+[13:49:47] [Async Chat Thread - #22/INFO]: <DonutBother> There were 4 left
+[13:49:54] [Server thread/INFO]: [WEB] Areafairy2: F
+[13:50:01] [Server thread/INFO]: [WEB] Areafairy2: Someone must've been hungry 
+[13:50:03] [Async Chat Thread - #22/INFO]: <DonutBother> There's now 8
+[13:50:06] [Async Chat Thread - #22/INFO]: <DonutBother> 9*
+[13:50:38] [Server thread/INFO]: [WEB] Areafairy2: places with walls are always suspicious 
+[13:50:45] [Async Chat Thread - #22/INFO]: <DonutBother> Riley, eh?
+[13:50:55] [Server thread/INFO]: [WEB] Areafairy2: oh, not riley though
+[13:51:08] [Async Chat Thread - #22/INFO]: <DonutBother> Haha, okay
+[13:51:30] [Server thread/INFO]: [WEB] Areafairy2: He's just prepping for war. The OTHERS with walls are the ones who will start them
+[13:51:45] [Async Chat Thread - #22/INFO]: <DonutBother> Right
+[13:51:57] [Async Chat Thread - #22/INFO]: <DonutBother> Well, I've now got 8
+[13:52:16] [Server thread/INFO]: [WEB] Areafairy2: cool
+[13:53:02] [Craft Scheduler Thread - 66/INFO]: Auto-saved all files!
+[13:53:25] [Server thread/INFO]: [WEB] Areafairy2: I like this organisation idea should be fun 
+[13:53:31] [Async Chat Thread - #23/INFO]: <DonutBother> Should be
+[13:53:38] [Async Chat Thread - #23/INFO]: <DonutBother> There will be a multitude of tunnels
+[13:54:10] [Server thread/INFO]: [WEB] Areafairy2: Should decorate the main base
+[13:54:19] [Server thread/INFO]: [WEB] Areafairy2: something to do over the holidays
+[13:54:26] [Async Chat Thread - #23/INFO]: <DonutBother> Yep
+[13:55:03] [Server thread/INFO]: DonutBother issued server command: /tp @e[type=item] @s
+[13:55:03] [Server thread/INFO]: [DonutBother: Teleported 2 entities to DonutBother]
+[13:55:11] [Async Chat Thread - #23/INFO]: <DonutBother> My helmet's gone
+[13:55:18] [Async Chat Thread - #23/INFO]: <DonutBother> Uh
+[13:55:35] [Server thread/INFO]: [WEB] Areafairy2: I wont be on too much for one week because im going on holiday but will most likely hop on at night, deegans coming too and maybe alex 
+[13:55:48] [Server thread/INFO]: [WEB] Areafairy2: did it break
+[13:55:56] [Async Chat Thread - #23/INFO]: <DonutBother> No, mending unbreaking III
+[13:56:03] [Server thread/INFO]: [WEB] Areafairy2: lmao idk
+[13:56:07] [Async Chat Thread - #23/INFO]: <DonutBother> I think I took off and didn't pick it up (threw it on ground)
+[13:56:14] [Async Chat Thread - #23/INFO]: <DonutBother> and now it's despawned
+[13:56:17] [Server thread/INFO]: [WEB] Areafairy2: unfortunate 
+[13:56:25] [Async Chat Thread - #23/INFO]: <DonutBother> Big dumb
+[13:56:45] [Async Chat Thread - #23/INFO]: <DonutBother> Sheep population is now 13
+[13:57:40] [Server thread/INFO]: [WEB] Areafairy2: You can prolly just make another one considering the villagers n stuff, but I wouldn't care if u cheated it in
+[13:57:59] [Async Chat Thread - #24/INFO]: <DonutBother> Yeah, I will make another one
+[13:58:02] [Craft Scheduler Thread - 67/INFO]: Auto-saved all files!
+[13:58:12] [Server thread/INFO]: [WEB] Areafairy2: hanging up a banner at port caine?
+[13:58:22] [Async Chat Thread - #24/INFO]: <DonutBother> Damn righ
+[13:58:23] [Async Chat Thread - #24/INFO]: <DonutBother> Damn right
+[13:58:25] [Server thread/INFO]: [WEB] Areafairy2: Interesting how dynmap knew i was Areafairy2
+[13:58:34] [Async Chat Thread - #24/INFO]: <DonutBother> Uses IP address
+[13:59:05] [Server thread/INFO]: [WEB] Areafairy2: Yes, thought something like that was the case, still cool
+[13:59:12] [Async Chat Thread - #24/INFO]: <DonutBother> Yes, very useful
+[13:59:18] [Async Chat Thread - #24/INFO]: <DonutBother> well, convenient
+[13:59:45] [Async Chat Thread - #24/INFO]: <DonutBother> There are 5 banners at Port Caine
+[14:00:57] [Server thread/INFO]: [WEB] Areafairy2: I remember on a different minecraft server there was a discord bot that sent messages from discord in a specific chat to mc and sent ingame text and notifications into the chat
+[14:01:12] [Async Chat Thread - #25/INFO]: <DonutBother> Yeah, I can do that, too. Reckon it's a good idea?
+[14:01:46] [Server thread/INFO]: [WEB] Areafairy2: dont think we should add it for this server
+[14:01:52] [Async Chat Thread - #25/INFO]: <DonutBother> Good point
+[14:01:59] [Server thread/INFO]: [WEB] Areafairy2: but the other server was more just dicking around with friends 
+[14:02:02] [Async Chat Thread - #25/INFO]: <DonutBother> This whole conversation would've been recorded
+[14:02:22] [Server thread/INFO]: [WEB] Areafairy2: this server is also that but people have some serious kinda stuff and rp that would be ruined
+[14:02:27] [Async Chat Thread - #25/INFO]: <DonutBother> Alright, that's it on minecraft for me. Going to create a page on Wiki
+[14:02:29] [Server thread/INFO]: [WEB] Areafairy2: JJ and enigmas chat would also be recorded
+[14:02:34] [Async Chat Thread - #25/INFO]: <DonutBother> Yes
+[14:02:48] [Server thread/INFO]: [WEB] Areafairy2: we could have it so only we could access the chat
+[14:02:48] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[14:02:48] [Server thread/INFO]: DonutBother left the game
+[14:03:02] [Craft Scheduler Thread - 68/INFO]: Auto-saved all files!
+[14:03:10] [Server thread/INFO]: [WEB] DonutBother: Yes, we can have it that
+[14:03:18] [Server thread/INFO]: [WEB] DonutBother: way*\
+[14:05:22] [Server thread/INFO]: [Server] penis!
+[14:05:42] [Server thread/INFO]: [Server] test
+[14:08:02] [Craft Scheduler Thread - 69/INFO]: Auto-saved all files!
+[14:13:02] [Craft Scheduler Thread - 70/INFO]: Auto-saved all files!
+[14:18:02] [Craft Scheduler Thread - 71/INFO]: Auto-saved all files!
+[14:23:02] [Craft Scheduler Thread - 72/INFO]: Auto-saved all files!
+[14:28:02] [Craft Scheduler Thread - 73/INFO]: Auto-saved all files!
+[14:33:02] [Craft Scheduler Thread - 74/INFO]: Auto-saved all files!
+[14:38:02] [Craft Scheduler Thread - 75/INFO]: Auto-saved all files!
+[14:43:02] [Craft Scheduler Thread - 76/INFO]: Auto-saved all files!
+[14:48:02] [Craft Scheduler Thread - 77/INFO]: Auto-saved all files!
+[14:53:02] [Craft Scheduler Thread - 78/INFO]: Auto-saved all files!
+[14:58:02] [Craft Scheduler Thread - 79/INFO]: Auto-saved all files!
+[15:03:02] [Craft Scheduler Thread - 80/INFO]: Auto-saved all files!
+[15:08:02] [Craft Scheduler Thread - 81/INFO]: Auto-saved all files!
+[15:13:02] [Craft Scheduler Thread - 82/INFO]: Auto-saved all files!
+[15:18:02] [Craft Scheduler Thread - 83/INFO]: Auto-saved all files!
+[15:23:02] [Craft Scheduler Thread - 84/INFO]: Auto-saved all files!
+[15:28:02] [Craft Scheduler Thread - 85/INFO]: Auto-saved all files!
+[15:33:02] [Craft Scheduler Thread - 86/INFO]: Auto-saved all files!
+[15:38:02] [Craft Scheduler Thread - 87/INFO]: Auto-saved all files!
+[15:43:02] [Craft Scheduler Thread - 88/INFO]: Auto-saved all files!
+[15:48:02] [Craft Scheduler Thread - 89/INFO]: Auto-saved all files!
+[15:53:02] [Craft Scheduler Thread - 90/INFO]: Auto-saved all files!
+[15:58:02] [Craft Scheduler Thread - 91/INFO]: Auto-saved all files!
+[16:03:02] [Craft Scheduler Thread - 92/INFO]: Auto-saved all files!
+[16:08:02] [Craft Scheduler Thread - 93/INFO]: Auto-saved all files!
+[16:13:02] [Craft Scheduler Thread - 94/INFO]: Auto-saved all files!
+[16:18:02] [Craft Scheduler Thread - 95/INFO]: Auto-saved all files!
+[16:23:02] [Craft Scheduler Thread - 96/INFO]: Auto-saved all files!
+[16:28:02] [Craft Scheduler Thread - 97/INFO]: Auto-saved all files!
+[16:33:02] [Craft Scheduler Thread - 98/INFO]: Auto-saved all files!
+[16:38:02] [Craft Scheduler Thread - 99/INFO]: Auto-saved all files!
+[16:43:02] [Craft Scheduler Thread - 100/INFO]: Auto-saved all files!
+[16:48:02] [Craft Scheduler Thread - 101/INFO]: Auto-saved all files!
+[16:53:02] [Craft Scheduler Thread - 102/INFO]: Auto-saved all files!
+[16:58:02] [Craft Scheduler Thread - 103/INFO]: Auto-saved all files!
+[17:03:02] [Craft Scheduler Thread - 104/INFO]: Auto-saved all files!
+[17:08:02] [Craft Scheduler Thread - 105/INFO]: Auto-saved all files!
+[17:13:02] [Craft Scheduler Thread - 106/INFO]: Auto-saved all files!
+[17:18:02] [Craft Scheduler Thread - 107/INFO]: Auto-saved all files!
+[17:23:02] [Craft Scheduler Thread - 108/INFO]: Auto-saved all files!
+[17:28:02] [Craft Scheduler Thread - 109/INFO]: Auto-saved all files!
+[17:33:02] [Craft Scheduler Thread - 110/INFO]: Auto-saved all files!
+[17:38:02] [Craft Scheduler Thread - 111/INFO]: Auto-saved all files!
+[17:43:02] [Craft Scheduler Thread - 112/INFO]: Auto-saved all files!
+[17:48:02] [Craft Scheduler Thread - 113/INFO]: Auto-saved all files!
+[17:53:02] [Craft Scheduler Thread - 114/INFO]: Auto-saved all files!
+[17:58:02] [Craft Scheduler Thread - 115/INFO]: Auto-saved all files!
+[18:03:02] [Craft Scheduler Thread - 116/INFO]: Auto-saved all files!
+[18:08:02] [Craft Scheduler Thread - 117/INFO]: Auto-saved all files!
+[18:13:02] [Craft Scheduler Thread - 118/INFO]: Auto-saved all files!
+[18:18:02] [Craft Scheduler Thread - 119/INFO]: Auto-saved all files!
+[18:23:02] [Craft Scheduler Thread - 120/INFO]: Auto-saved all files!
+[18:28:02] [Craft Scheduler Thread - 121/INFO]: Auto-saved all files!
+[18:33:02] [Craft Scheduler Thread - 122/INFO]: Auto-saved all files!
+[18:38:02] [Craft Scheduler Thread - 123/INFO]: Auto-saved all files!
+[18:43:02] [Craft Scheduler Thread - 124/INFO]: Auto-saved all files!
+[18:48:02] [Craft Scheduler Thread - 125/INFO]: Auto-saved all files!
+[18:53:02] [Craft Scheduler Thread - 126/INFO]: Auto-saved all files!
+[18:58:02] [Craft Scheduler Thread - 127/INFO]: Auto-saved all files!
+[19:03:02] [Craft Scheduler Thread - 128/INFO]: Auto-saved all files!
+[19:08:02] [Craft Scheduler Thread - 129/INFO]: Auto-saved all files!
+[19:13:02] [Craft Scheduler Thread - 130/INFO]: Auto-saved all files!
+[19:18:02] [Craft Scheduler Thread - 131/INFO]: Auto-saved all files!
+[19:23:02] [Craft Scheduler Thread - 132/INFO]: Auto-saved all files!
+[19:28:02] [Craft Scheduler Thread - 133/INFO]: Auto-saved all files!
+[19:33:02] [Craft Scheduler Thread - 134/INFO]: Auto-saved all files!
+[19:38:02] [Craft Scheduler Thread - 135/INFO]: Auto-saved all files!
+[19:43:02] [Craft Scheduler Thread - 136/INFO]: Auto-saved all files!
+[19:48:02] [Craft Scheduler Thread - 137/INFO]: Auto-saved all files!
+[19:53:02] [Craft Scheduler Thread - 138/INFO]: Auto-saved all files!
+[19:58:02] [Craft Scheduler Thread - 139/INFO]: Auto-saved all files!
+[20:03:02] [Craft Scheduler Thread - 140/INFO]: Auto-saved all files!
+[20:08:02] [Craft Scheduler Thread - 141/INFO]: Auto-saved all files!
+[20:13:02] [Craft Scheduler Thread - 142/INFO]: Auto-saved all files!
+[20:18:02] [Craft Scheduler Thread - 143/INFO]: Auto-saved all files!
+[20:23:02] [Craft Scheduler Thread - 144/INFO]: Auto-saved all files!
+[20:28:02] [Craft Scheduler Thread - 145/INFO]: Auto-saved all files!
+[20:30:33] [User Authenticator #15/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[20:30:33] [Server thread/INFO]: Morgymop joined the game
+[20:30:33] [Server thread/INFO]: Morgymop[/117.20.68.3:12964] logged in with entity id 98562 at ([world]1658.9053948951027, 75.0, 941.7624999880791)
+[20:32:17] [Server thread/INFO]: Morgymop lost connection: Timed out
+[20:32:17] [Server thread/INFO]: Morgymop left the game
+[20:32:27] [User Authenticator #16/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[20:32:28] [Server thread/INFO]: Morgymop joined the game
+[20:32:28] [Server thread/INFO]: Morgymop[/117.20.68.3:13037] logged in with entity id 98920 at ([world]1658.9545177266316, 74.1875, 936.6463349244841)
+[20:33:02] [Craft Scheduler Thread - 146/INFO]: Auto-saved all files!
+[20:33:12] [Server thread/WARN]: Morgymop was kicked due to keepalive timeout!
+[20:33:12] [Server thread/INFO]: Morgymop lost connection: Timed out
+[20:33:13] [Server thread/INFO]: Morgymop left the game
+[20:34:20] [User Authenticator #17/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[20:34:20] [Server thread/INFO]: Morgymop joined the game
+[20:34:20] [Server thread/INFO]: Morgymop[/1.132.104.19:39613] logged in with entity id 99197 at ([world]1656.1134022085225, 69.0, 938.1156663169324)
+[20:38:02] [Craft Scheduler Thread - 147/INFO]: Auto-saved all files!
+[20:43:02] [Craft Scheduler Thread - 148/INFO]: Auto-saved all files!
+[20:48:02] [Craft Scheduler Thread - 149/INFO]: Auto-saved all files!
+[20:51:27] [Server thread/INFO]: Morgymop was slain by Zombie
+[20:53:02] [Craft Scheduler Thread - 150/INFO]: Auto-saved all files!
+[20:58:02] [Craft Scheduler Thread - 151/INFO]: Auto-saved all files!
+[21:03:02] [Craft Scheduler Thread - 152/INFO]: Auto-saved all files!
+[21:08:02] [Craft Scheduler Thread - 153/INFO]: Auto-saved all files!
+[21:09:16] [Server thread/INFO]: Morgymop was slain by Zombie
+[21:09:52] [Server thread/INFO]: Morgymop was slain by Zombie
+[21:11:26] [Server thread/INFO]: Morgymop was slain by Zombie
+[21:12:18] [Server thread/INFO]: Morgymop burned to death
+[21:13:02] [Craft Scheduler Thread - 154/INFO]: Auto-saved all files!
+[21:14:44] [Server thread/INFO]: Morgymop lost connection: Disconnected
+[21:14:44] [Server thread/INFO]: Morgymop left the game
+[21:18:02] [Craft Scheduler Thread - 155/INFO]: Auto-saved all files!
+[21:23:02] [Craft Scheduler Thread - 156/INFO]: Auto-saved all files!
+[21:28:02] [Craft Scheduler Thread - 157/INFO]: Auto-saved all files!
+[21:33:02] [Craft Scheduler Thread - 158/INFO]: Auto-saved all files!
+[21:38:02] [Craft Scheduler Thread - 159/INFO]: Auto-saved all files!
+[21:40:59] [Network Listener - #1/INFO]: [Geyser-Spigot] /121.222.87.16:53949 tried to connect!
+[21:41:00] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username WierdoBrad12345
+[21:41:09] [Network Listener - #1/INFO]: [Geyser-Spigot] Attempting to login using floodgate mode... authentication will be encrypted.
+[21:41:09] [Thread-105/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[21:41:09] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] WierdoBrad12345 (logged in as: WierdoBrad12345) has connected to remote java server on address 10.152.0.2
+[21:41:09] [Netty Epoll Server IO #0/INFO]: [floodgate-bukkit] Added BigWierdoBrad123 00000000-0000-0000-0009-01f7ac494c34
+[21:41:09] [Netty Epoll Server IO #0/INFO]: UUID of player ButtockManWierdo is 00000000-0000-0000-0009-01f7ac494c34
+[21:41:09] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Registering bedrock skin for ButtockManWierdo (00000000-0000-0000-0009-01f7ac494c34)
+[21:41:09] [Server thread/INFO]: ButtockManWierdo joined the game
+[21:41:09] [Server thread/INFO]: ButtockManWierdo[/121.222.87.16:39422] logged in with entity id 105003 at ([world]1824.2614, 64.0, 142.80882)
+[21:41:10] [Thread-106/INFO]: [Geyser-Spigot] Spawned player at 1,824.261 64 142.809
+[21:43:02] [Craft Scheduler Thread - 160/INFO]: Auto-saved all files!
+[21:47:44] [Server thread/WARN]: Boat (vehicle of ButtockManWierdo) moved too quickly! 286.2020263671875,1.8000984191894531,167.79112148284912
+[21:48:02] [Craft Scheduler Thread - 161/INFO]: Auto-saved all files!
+[21:48:26] [Server thread/INFO]: ButtockManWierdo issued server command: /tp ButtockManWierdo 1828 64 156
+[21:48:26] [Server thread/INFO]: [ButtockManWierdo: Teleported ButtockManWierdo to 1828.5, 64.0, 156.5]
+[21:53:02] [Craft Scheduler Thread - 162/INFO]: Auto-saved all files!
+[21:57:00] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /121.222.87.16 has disconnected for reason CLOSED_BY_REMOTE_PEER
+[21:57:00] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] WierdoBrad12345 has disconnected from remote Java server on address 10.152.0.2 because of CLOSED_BY_REMOTE_PEER
+[21:57:00] [Server thread/INFO]: ButtockManWierdo lost connection: Disconnected
+[21:57:00] [Server thread/INFO]: ButtockManWierdo left the game
+[21:58:02] [Craft Scheduler Thread - 163/INFO]: Auto-saved all files!
+[21:59:47] [Network Listener - #1/INFO]: [Geyser-Spigot] /121.222.87.16:53949 tried to connect!
+[21:59:47] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username WierdoBrad12345
+[21:59:56] [Network Listener - #1/INFO]: [Geyser-Spigot] Attempting to login using floodgate mode... authentication will be encrypted.
+[21:59:56] [Thread-108/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[21:59:56] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] WierdoBrad12345 (logged in as: WierdoBrad12345) has connected to remote java server on address 10.152.0.2
+[21:59:56] [Netty Epoll Server IO #1/INFO]: [floodgate-bukkit] Added BigWierdoBrad123 00000000-0000-0000-0009-01f7ac494c34
+[21:59:57] [Netty Epoll Server IO #1/INFO]: UUID of player ButtockManWierdo is 00000000-0000-0000-0009-01f7ac494c34
+[21:59:57] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Registering bedrock skin for ButtockManWierdo (00000000-0000-0000-0009-01f7ac494c34)
+[21:59:57] [Server thread/INFO]: ButtockManWierdo joined the game
+[21:59:57] [Server thread/INFO]: ButtockManWierdo[/121.222.87.16:39464] logged in with entity id 110139 at ([world]2588.3743, 69.0, -320.58368)
+[21:59:57] [Thread-109/INFO]: [Geyser-Spigot] Spawned player at 2,588.374 69 -320.584
+[22:03:02] [Craft Scheduler Thread - 164/INFO]: Auto-saved all files!
+[22:04:56] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /121.222.87.16 has disconnected for reason CLOSED_BY_REMOTE_PEER
+[22:04:56] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] WierdoBrad12345 has disconnected from remote Java server on address 10.152.0.2 because of CLOSED_BY_REMOTE_PEER
+[22:04:56] [Server thread/INFO]: ButtockManWierdo lost connection: Disconnected
+[22:04:56] [Server thread/INFO]: ButtockManWierdo left the game
+[22:05:47] [Network Listener - #1/INFO]: [Geyser-Spigot] /121.222.87.16:53949 tried to connect!
+[22:05:47] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username WierdoBrad12345
+[22:05:56] [Network Listener - #1/INFO]: [Geyser-Spigot] Attempting to login using floodgate mode... authentication will be encrypted.
+[22:05:56] [Thread-110/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[22:05:56] [nioEventLoopGroup-5-2/INFO]: [Geyser-Spigot] WierdoBrad12345 (logged in as: WierdoBrad12345) has connected to remote java server on address 10.152.0.2
+[22:05:56] [Netty Epoll Server IO #2/INFO]: [floodgate-bukkit] Added BigWierdoBrad123 00000000-0000-0000-0009-01f7ac494c34
+[22:05:56] [Netty Epoll Server IO #2/INFO]: UUID of player ButtockManWierdo is 00000000-0000-0000-0009-01f7ac494c34
+[22:05:56] [nioEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Registering bedrock skin for ButtockManWierdo (00000000-0000-0000-0009-01f7ac494c34)
+[22:05:56] [Server thread/INFO]: ButtockManWierdo joined the game
+[22:05:56] [Server thread/INFO]: ButtockManWierdo[/121.222.87.16:39476] logged in with entity id 111170 at ([world]2595.6162, 70.0, -322.0782)
+[22:05:56] [Thread-111/INFO]: [Geyser-Spigot] Spawned player at 2,595.616 70 -322.078
+[22:08:02] [Craft Scheduler Thread - 165/INFO]: Auto-saved all files!
+[22:12:16] [Server thread/INFO]: ButtockManWierdo issued server command: /dmarker add "Edgeland Island" icon:lighthouse
+[22:13:02] [Craft Scheduler Thread - 166/INFO]: Auto-saved all files!
+[22:18:02] [Craft Scheduler Thread - 167/INFO]: Auto-saved all files!
+[22:23:02] [Craft Scheduler Thread - 168/INFO]: Auto-saved all files!
+[22:27:20] [Server thread/INFO]: Villager EntityVillager['Villager'/114991, uuid='636af68d-c68e-4c7e-a54a-35c9b6eb2d2b', l='ServerLevel[world]', x=1841.30, y=71.00, z=535.50, cx=115, cz=33, tl=1437195, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[22:27:44] [Server thread/INFO]: ButtockManWierdo issued server command: /dynmap:dmarker add "BradleyLand Village" icon:bighouse
+[22:28:02] [Craft Scheduler Thread - 169/INFO]: Auto-saved all files!
+[22:30:50] [Server thread/INFO]: ButtockManWierdo issued server command: /dmarker add "Nation of Burger" icon:world
+[22:32:05] [Server thread/INFO]: ButtockManWierdo issued server command: /dmarker add "Tom's Portal" icon:portal
+[22:33:02] [Craft Scheduler Thread - 170/INFO]: Auto-saved all files!
+[22:33:27] [Server thread/INFO]: ButtockManWierdo issued server command: /dmarker add "Pirate Party" icon:pirateflag
+[22:34:58] [Server thread/INFO]: ButtockManWierdo issued server command: /dmarker add "Tom's House" icon:house
+[22:35:29] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /121.222.87.16 has disconnected for reason CLOSED_BY_REMOTE_PEER
+[22:35:29] [nioEventLoopGroup-5-2/INFO]: [Geyser-Spigot] WierdoBrad12345 has disconnected from remote Java server on address 10.152.0.2 because of CLOSED_BY_REMOTE_PEER
+[22:35:29] [Server thread/INFO]: ButtockManWierdo lost connection: Disconnected
+[22:35:29] [Server thread/INFO]: ButtockManWierdo left the game
+[22:38:02] [Craft Scheduler Thread - 171/INFO]: Auto-saved all files!
+[22:43:02] [Craft Scheduler Thread - 172/INFO]: Auto-saved all files!
+[22:48:02] [Craft Scheduler Thread - 173/INFO]: Auto-saved all files!
+[22:53:02] [Craft Scheduler Thread - 174/INFO]: Auto-saved all files!
+[22:58:02] [Craft Scheduler Thread - 175/INFO]: Auto-saved all files!
+[23:03:02] [Craft Scheduler Thread - 176/INFO]: Auto-saved all files!
+[23:08:02] [Craft Scheduler Thread - 177/INFO]: Auto-saved all files!
+[23:11:59] [User Authenticator #18/INFO]: UUID of player Morgymop is 0a71a81d-0d37-46c9-8ce5-31b752382ba3
+[23:11:59] [Server thread/INFO]: Morgymop joined the game
+[23:11:59] [Server thread/INFO]: Morgymop[/1.132.111.121:18318] logged in with entity id 121400 at ([world]1677.8723756744498, 64.0, 945.276290823154)
+[23:12:17] [Netty Epoll Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[23:13:02] [Craft Scheduler Thread - 178/INFO]: Auto-saved all files!
+[23:18:02] [Craft Scheduler Thread - 179/INFO]: Auto-saved all files!
+[23:23:02] [Craft Scheduler Thread - 180/INFO]: Auto-saved all files!
+[23:27:40] [Server thread/INFO]: Morgymop lost connection: Disconnected
+[23:27:40] [Server thread/INFO]: Morgymop left the game
+[23:28:02] [Craft Scheduler Thread - 181/INFO]: Auto-saved all files!
+[23:33:02] [Craft Scheduler Thread - 182/INFO]: Auto-saved all files!
+[23:38:02] [Craft Scheduler Thread - 183/INFO]: Auto-saved all files!
+[23:43:02] [Craft Scheduler Thread - 184/INFO]: Auto-saved all files!
+[23:48:02] [Craft Scheduler Thread - 185/INFO]: Auto-saved all files!
+[23:53:02] [Craft Scheduler Thread - 186/INFO]: Auto-saved all files!
+[23:58:02] [Craft Scheduler Thread - 187/INFO]: Auto-saved all files!

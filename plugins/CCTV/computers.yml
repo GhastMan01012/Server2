@@ -1,0 +1,11 @@
+computer:
+  '0':
+    id: '6768'
+    world: world
+    x: 1968
+    y: 16
+    z: 450
+    owner: ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+    cameraGroup: Spying
+    players:
+      '0': 0a71a81d-0d37-46c9-8ce5-31b752382ba3

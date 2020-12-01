@@ -1,0 +1,14 @@
+cameragroup:
+  '0':
+    id: Spying
+    owner: 23c55aa3-b3cf-44de-be38-d5e0e1509c94
+    cameras:
+      '0': '261421'
+      '1': '919804'
+      '2': '366477'
+      '3': '745044'
+  '1':
+    id: Test
+    owner: ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+    cameras:
+      '0': '731311'

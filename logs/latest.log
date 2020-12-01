@@ -1,0 +1,120 @@
+[00:03:10] [main/INFO]: Loading for game Minecraft 1.16.4
+[00:03:11] [main/INFO]: [FabricLoader] Loading 50 mods: fabric-renderer-api-v1@0.3.3+6a2618f53a, fabric-keybindings-v0@0.2.0+6a2618f53a, fabricloader@0.10.8, fabric-structure-api-v1@1.1.1+f1d8af063a, lithium@0.6.0, fabric-containers-v0@0.1.8+6a2618f53a, fabric-object-builder-api-v1@1.9.2+6a2618f53a, fabric-dimensions-v1@2.0.1+9a6c75813a, fabric-game-rule-api-v1@1.0.3+a4467d2a3a, fabric-api-base@0.2.0+ab87788d3a, fabric-rendering-data-attachment-v1@0.1.4+6a2618f53a, fabric-textures-v0@1.0.5+6a2618f53a, bssentials@3.x, fabric-rendering-fluids-v1@0.1.12+6a2618f53a, fabric-blockrenderlayer-v1@1.1.4+6a2618f53a, fabric-lifecycle-events-v1@1.2.0+6a2618f53a, fabric-renderer-registries-v1@2.2.0+6a2618f53a, fabric-loot-tables-v1@1.0.1+6a2618f53a, fabric@0.27.1+1.16, carpet@1.4.19, fabric-particles-v1@0.2.2+6a2618f53a, fabric-networking-v0@0.1.10+6a2618f53a, fabric-screen-handler-api-v1@1.1.0+6a2618f53a, fabricproxy@1.4.0, minecraft@1.16.4, fabric-networking-blockentity-v0@0.2.5+6a2618f53a, fabric-command-api-v1@1.0.9+6a2618f53a, phosphor@0.6.0+build.7, fabric-tool-attribute-api-v1@1.2.5+6a2618f53a, fabric-renderer-indigo@0.4.3+6a2618f53a, fabric-item-api-v1@1.2.0+6a2618f53a, fabric-crash-report-info-v1@0.1.2+b7f9825d3a, fabric-events-interaction-v0@0.4.1+6a2618f53a, cyber-permissions@1.0, fabric-rendering-v0@1.1.1+6a2618f53a, fabric-rendering-v1@1.4.0+6a2618f53a, fabric-key-binding-api-v1@1.0.1+730711c63a, autoconfig1u@3.3.1, fabric-resource-loader-v0@0.3.2+1944f3e03a, fabric-content-registries-v0@0.2.0+e77439c73a, fabric-tag-extensions-v0@1.1.0+e77439c73a, fabric-biome-api-v1@3.1.0+2e23b97c3a, fabric-registry-sync-v0@0.7.1+285766753a, fabric-commands-v0@0.2.0+6a2618f53a, fabric-mining-levels-v0@0.1.2+6a2618f53a, fabric-events-lifecycle-v0@0.2.0+6a2618f53a, fabric-models-v0@0.1.1+6a2618f53a, fabric-item-groups-v0@0.2.1+6a2618f53a, fabric-object-builders-v0@0.7.1+6a2618f53a, lithium-api@0.6.0
+[00:03:11] [main/WARN]: Mod `bssentials` (3.x) does not respect SemVer - comparison support is limited.
+[00:03:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/efole/Documents/GitHub/Server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[00:03:14] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-v[00:03:14] [main/INFO]: BungeeCord support injected: one.oktw.mixin.bungee.ClientConnectionMixin
+[00:03:14] [main/INFO]: BungeeCord support injected: one.oktw.mixin.bungee.HandshakeC2SPacketAccessor
+[00:03:14] [main/INFO]: BungeeCord support injected: one.oktw.mixin.bungee.HandshakeC2SPacketMixin
+[00:03:14] [main/INFO]: BungeeCord support injected: one.oktw.mixin.bungee.ServerHandshakeNetworkHandlerMixin
+[00:03:14] [main/INFO]: BungeeCord support injected: one.oktw.mixin.bungee.ServerLoginNetworkHandlerMixin
+[00:03:20] [main/WARN]: Could not save config.yml to .\config\Bssentials\config.yml because config.yml already exists.
+[00:03:20] [main/WARN]: Could not save info.txt to .\config\Bssentials\info.txt because info.txt already exists.
+[00:03:20] [main/WARN]: Could not save motd.txt to .\config\Bssentials\motd.txt because motd.txt already exists.
+[00:03:20] [main/WARN]: Could not save rules.txt to .\config\Bssentials\rules.txt because rules.txt already exists.
+[00:03:20] [main/INFO]: Loading configuration...
+[00:03:20] [main/INFO]: Loading CyberPermissions...
+[00:03:20] [main/INFO]: CyberPermissions fully loaded...
+[00:03:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:03:23] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:03:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:03:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:03:23] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:03:23] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:03:23] [main/INFO]: Reloading ResourceManager: Default, bukkit, Fabric Tool Attribute API (v1)
+[00:03:25] [Worker-Main-13/INFO]: Loaded 7 recipes
+[00:03:25] [Worker-Main-13/INFO]: Loaded 927 advancements
+[00:03:27] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 3.234 ms
+[00:03:28] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[00:03:28] [Server thread/INFO]: Loading properties
+[00:03:28] [Server thread/INFO]: Default game type: SURVIVAL
+[00:03:28] [Server thread/INFO]: Generating keypair
+[00:03:28] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:95) [intermediary-server.jar:?]
+[00:03:28] [Server thread/INFO]: Starting Minecraft server on *:42069
+[00:03:28] [Server thread/INFO]: Using default channel type
+[00:03:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:03:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:03:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:03:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:03:29] [Server thread/INFO]: Preparing level "world"
+[00:03:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:03:31] [Server thread/INFO]: Preparing spawn area: 0%
+[00:03:31] [Server thread/INFO]: Preparing spawn area: 0%
+[00:03:31] [Server thread/INFO]: Preparing spawn area: 0%
+[00:03:31] [Server thread/INFO]: Preparing spawn area: 31%
+[00:03:31] [Server thread/INFO]: Time elapsed: 2061 ms
+[00:03:31] [Server thread/INFO]: Done (2.573s)! For help, type "help"
+[00:03:31] [Server thread/INFO]: Registering commands...
+[00:03:31] [Server thread/INFO]: Registered 41 commands
+[00:03:31] [Server thread/INFO]: Bssentials version FABRIC_BETA_BUILD
+[00:04:03] [Server thread/INFO]: DonutBother[/127.0.0.1:56514] logged in with entity id 142 at (227.06445291334146, 128.0, 57.25175208469385)
+[00:04:03] [Server thread/INFO]: DonutBother joined the game
+[00:04:04] [Netty Server IO #1/WARN]: Player DonutBother joined with another carpet version: 1.4.17+v201111
+[00:04:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2212ms or 44 ticks behind
+[00:04:25] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[00:04:25] [Server thread/INFO]: DonutBother left the game
+[00:04:42] [Server thread/INFO]: DonutBother[/127.0.0.1:56604] logged in with entity id 292 at (2222.354064631591, 68.0, 0.78034355788795)
+[00:04:42] [Server thread/INFO]: DonutBother joined the game
+[00:04:53] [Server thread/INFO]: DonutBother lost connection: Disconnected
+[00:04:53] [Server thread/INFO]: DonutBother left the game
+[00:07:21] [Server thread/INFO]: Stopping the server
+[00:07:22] [Server thread/INFO]: Stopping server
+[00:07:22] [Server thread/INFO]: Saving players
+[00:07:22] [Server thread/INFO]: Saving worlds
+[00:07:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:07:22] [Server thread/ERROR]: Could not save data net.minecraft.class_273@11c8394e
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:334) ~[?:?]
+	at java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:182) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:94) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:109) ~[?:?]
+	at net.minecraft.class_2507.method_10634(class_2507.java:43) ~[intermediary-server.jar:?]
+	at net.minecraft.class_2507.method_30614(class_2507.java:38) ~[intermediary-server.jar:?]
+	at net.minecraft.class_18.method_17919(class_18.java:51) ~[intermediary-server.jar:?]
+	at net.minecraft.class_26.method_125(class_26.java:124) ~[intermediary-server.jar:?]
+	at net.minecraft.class_3218.method_14188(class_3218.java:717) ~[intermediary-server.jar:?]
+	at net.minecraft.class_3218.method_14176(class_3218.java:705) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:567) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:599) ~[intermediary-server.jar:?]
+	at net.minecraft.class_3176.method_3782(class_3176.java:567) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:707) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257) ~[intermediary-server.jar:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:07:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:07:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:07:22] [Server thread/ERROR]: Failed to save level .\world
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:168) ~[?:?]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:237) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.class_2507.method_10634(class_2507.java:45) ~[intermediary-server.jar:?]
+	at net.minecraft.class_2507.method_30614(class_2507.java:38) ~[intermediary-server.jar:?]
+	at net.minecraft.class_32$class_5143.method_27426(class_32.java:355) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:574) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:599) ~[intermediary-server.jar:?]
+	at net.minecraft.class_3176.method_3782(class_3176.java:567) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:707) ~[intermediary-server.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257) ~[intermediary-server.jar:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:07:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

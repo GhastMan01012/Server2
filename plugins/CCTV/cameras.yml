@@ -1,0 +1,11 @@
+camera:
+  '0':
+    id: '261421'
+    owner: ebaf7c97-79f3-44c9-9326-ad9df1f013ae
+    world: world
+    enabled: true
+    x: 1804.5
+    y: 63.76
+    z: 24.71
+    pitch: 0.0
+    yaw: 180.0
